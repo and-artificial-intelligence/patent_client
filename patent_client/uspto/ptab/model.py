@@ -177,7 +177,7 @@ class PtabDocument(PtabBaseModel):
             out_path = Path(path) / filename
         else:
             out_path = out_path
-        donwload_url = f"https://developer.uspto.gov/ptab-api/documents/{self.document_identifier}/download"
+        download_url = f"https://developer.uspto.gov/ptab-api/documents/{self.document_identifier}/download"
         return await session.download(download_url, path=out_path)
 
 
