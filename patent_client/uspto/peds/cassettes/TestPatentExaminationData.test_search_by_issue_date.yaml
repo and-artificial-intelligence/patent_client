@@ -22,16 +22,16 @@ interactions:
       host:
       - ped.uspto.gov
       user-agent:
-      - Mozilla/5.0 Python Patent Clientbot/4.1.1 (parkerhancock@users.noreply.github.com)
+      - Mozilla/5.0 Python Patent Clientbot/4.1.3 (parkerhancock@users.noreply.github.com)
     method: POST
     uri: https://ped.uspto.gov/api/queries
   response:
-    content: "{\"queryResults\":{\"indexLastUpdatedDate\":\"Thu Nov 30 12:52:38 EST
-      2023\",\"searchResponse\":{\"responseHeader\":{\"zkConnected\":true,\"status\":0,\"QTime\":981},\"response\":{\"numFound\":7462,\"start\":0,\"numFoundExact\":true,\"docs\":[{\"corrAddrCountryName\":\"UNITED
+    content: "{\"queryResults\":{\"indexLastUpdatedDate\":\"Wed Dec 06 10:23:05 EST
+      2023\",\"searchResponse\":{\"responseHeader\":{\"zkConnected\":true,\"status\":0,\"QTime\":780},\"response\":{\"numFound\":7382,\"start\":0,\"numFoundExact\":true,\"docs\":[{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"13694742\",\"totalPtoDays\":\"95\",\"appFilingDate\":\"2012-12-28T00:00:00Z\",\"appExamName\":\"ELCHANTI,
       TAREK\",\"appExamNameFacet\":\"ELCHANTI, TAREK\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Henry
       Peter Badenhop\",\"inventorNameFacet\":\"Henry Peter Badenhop\",\"appEarlyPubDate\":\"2014-07-03T00:00:00Z\",\"corrAddrGeoRegionCode\":\"NJ\",\"corrAddrNameLineTwo\":\"ERNEST
-      D. BUFF AND ASSOCIATES, LLC.\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20140188616A1\",\"id\":\"13694742\",\"appGrpArtNumber\":\"3682\",\"appGrpArtNumberFacet\":\"3682\",\"applIdStr\":\"13694742\",\"appl_id_txt\":\"13694742\",\"appSubCls\":\"014580\",\"patentNumber\":\"11823232\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"transactions\":[{\"recordDate\":\"2023-11-22
+      D. BUFF AND ASSOCIATES, LLC.\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20140188616A1\",\"id\":\"13694742\",\"appGrpArtNumber\":\"3682\",\"appGrpArtNumberFacet\":\"3682\",\"applIdStr\":\"13694742\",\"appl_id_txt\":\"13694742\",\"appSubCls\":\"014580\",\"patentNumber\":\"11823232\",\"LAST_MOD_TS\":\"2023-12-05T05:57:07Z\",\"transactions\":[{\"recordDate\":\"2023-11-22
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EPG_NTF\",\"description\":\"Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -129,7 +129,7 @@ interactions:
       00:00:00\",\"code\":\"WIDS\",\"description\":\"Information Disclosure Statement
       (IDS) Filed\"},{\"recordDate\":\"2013-01-24 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2012-12-31 00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial
-      Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
+      Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"112.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"2512\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"112\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"110\",\"ptaOrPteDate\":\"10-02-2023\",\"contentsDescription\":\"Dispatch
@@ -225,7 +225,7 @@ interactions:
       \",\"geoCode\":\"NJ\",\"country\":\"(US)\",\"rankNo\":\"1\"}],\"inventorsFacet\":\"{Henry|Peter|Badenhop||||Monroe|NJ|US|IND|1}\",\"ptoAdjustments\":\"0\",\"corrAddrStreetLineOne\":\"231
       SOMERVILLE ROAD\",\"firstInventorFile\":\"No\",\"overlapDelay\":\"0\",\"aDelay\":\"188\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"07921\",\"appCustNumber\":\"25901\",\"appClsSubCls\":\"705/014580\",\"appClsSubClsFacet\":\"705/014580\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"2512\",\"corrAddrNameLineOne\":\"ERNEST
       D. BUFF\",\"attrnyAddr\":[{\"applicationId\":null,\"registrationNo\":\"25833\",\"fullName\":\"Buff,
-      Ernest  \",\"phoneNum\":\"201-455-3445\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"25901\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"2700\",\"corrAddrCity\":\"BEDMINSTER\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"9681\",\"lastUpdatedTimestamp\":\"2023-11-30T03:00:18.025Z\",\"cmsData\":[\"{13694742|2023-08-31
+      Ernest  \",\"phoneNum\":\"201-455-3445\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"25901\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"2700\",\"corrAddrCity\":\"BEDMINSTER\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"9681\",\"lastUpdatedTimestamp\":\"2023-12-06T12:33:28.188Z\",\"cmsData\":[\"{13694742|2023-08-31
       20:00:00|PROSECUTION|Specification-Amendment Not Entered|SPEC.NE|1|LM0JDCQ7GREENX0},{13694742|2023-08-31
       20:00:00|PROSECUTION|Response to Amendment under Rule 312|N271|2|LM0JDCPTGREENX0},{13694742|2023-08-22
       11:56:42|PROSECUTION|Specification|SPEC|1|LLMQ8LOIXBLUEX2},{13694742|2023-08-22
@@ -366,7 +366,7 @@ interactions:
       of New Application|TRNA|3|HBJ9XZNEPXXIFW4},{13694742|2012-12-27 19:00:00|PROSECUTION|Specification|SPEC|87|HBJ9XZNNPXXIFW4},{13694742|2012-12-27
       19:00:00|PROSECUTION|Placeholder sheet indicating presence of supplemental content
       in Supplemental Complex Repository for Examiners(SCORE)|SCORE|1|HBJ9XZP4PXXIFW4},{13694742|2012-12-27
-      19:00:00|PROSECUTION|Abstract|ABST|1|HBJ9XZOAPXXIFW4}\"],\"appAttrDockNumberFacet\":\"0522-3\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"25901\",\"_version_\":1783956505524961280,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20140188616A1\",\"patentNumberFacet\":\"11823232\"},{\"corrAddrCountryName\":\"UNITED
+      19:00:00|PROSECUTION|Abstract|ABST|1|HBJ9XZOAPXXIFW4}\"],\"appAttrDockNumberFacet\":\"0522-3\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"25901\",\"_version_\":1784536005833916416,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20140188616A1\",\"patentNumberFacet\":\"11823232\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"13824533\",\"totalPtoDays\":\"160\",\"assignments\":[{\"reelNumber\":\"30056\",\"frameNumber\":\"154\",\"addressNameText\":\"WILLIAM
       P. BERRIDGE\",\"addressLineOneText\":\"OLIFF & BERRIDGE, PLC\",\"addressLineTwoText\":\"P.O.
       BOX 320850\",\"addressLineThreeText\":\"ALEXANDRIA, VA 22320-4850\",\"addressLineFourText\":\"null\",\"mailDate\":\"03-22-2013\",\"receivedDate\":\"03-20-2013\",\"recordedDate\":\"03-20-2013\",\"pagesCount\":\"2\",\"converyanceName\":\"ASSIGNMENT
@@ -375,7 +375,7 @@ interactions:
       ROBERTO\",\"execDate\":\"03-15-2013\"}],\"assignee\":[{\"assigneeName\":\"L'OREAL\",\"streetLineOneText\":\"14,
       RUE ROYALE\",\"streetLineTwoText\":\"null\",\"cityName\":\"75008 PARIS\",\"countryCode\":\"FRANCE\",\"postalCode\":\"null\"}]}],\"appFilingDate\":\"2013-03-20T00:00:00Z\",\"appExamName\":\"BECKHARDT,
       LYNDSEY MARIE\",\"appExamNameFacet\":\"BECKHARDT, LYNDSEY MARIE\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Nathalie
-      \ Geffroy\",\"inventorNameFacet\":\"Nathalie  Geffroy\",\"appEarlyPubDate\":\"2013-10-24T00:00:00Z\",\"corrAddrGeoRegionCode\":\"VA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20130280197A1\",\"id\":\"13824533\",\"appGrpArtNumber\":\"1613\",\"appGrpArtNumberFacet\":\"1613\",\"applIdStr\":\"13824533\",\"appl_id_txt\":\"13824533\",\"appSubCls\":\"064000\",\"patentNumber\":\"11819563\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ Geffroy\",\"inventorNameFacet\":\"Nathalie  Geffroy\",\"appEarlyPubDate\":\"2013-10-24T00:00:00Z\",\"corrAddrGeoRegionCode\":\"VA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20130280197A1\",\"id\":\"13824533\",\"appGrpArtNumber\":\"1613\",\"appGrpArtNumberFacet\":\"1613\",\"applIdStr\":\"13824533\",\"appl_id_txt\":\"13824533\",\"appSubCls\":\"064000\",\"patentNumber\":\"11819563\",\"LAST_MOD_TS\":\"2023-12-05T05:57:07Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -606,7 +606,7 @@ interactions:
       of DO/EO Acceptance Mailed\"},{\"recordDate\":\"2013-03-18 00:00:00\",\"code\":\"APPERMS\",\"description\":\"Applicants
       have given acceptable permission for participating foreign \"},{\"recordDate\":\"2013-03-29
       00:00:00\",\"code\":\"L194\",\"description\":\"Cleared by OIPE CSR\"},{\"recordDate\":\"2013-03-18
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"424\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"424\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"252.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"169\",\"applDays\":\"\",\"start\":\"252.4\"},{\"number\":\"252.4\",\"ptaOrPteDate\":\"03-20-2013\",\"contentsDescription\":\"Commencement
       Date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"252\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -911,7 +911,7 @@ interactions:
       application Claims Priority from Provisional Application\"},{\"claimApplicationNumberText\":\"61425273\",\"applicationNumberText\":\"13824533\",\"filingDate\":\"12-21-2010\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
       application Claims Priority from Provisional Application\"},{\"claimApplicationNumberText\":\"61425272\",\"applicationNumberText\":\"13824533\",\"filingDate\":\"12-21-2010\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
       application Claims Priority from Provisional Application\"},{\"claimApplicationNumberText\":\"61425263\",\"applicationNumberText\":\"13824533\",\"filingDate\":\"12-21-2010\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"22850\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"938\",\"corrAddrCity\":\"ALEXANDRIA\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"3337\",\"lastUpdatedTimestamp\":\"2023-11-30T03:29:59.192Z\",\"cmsData\":[\"{13824533|2023-08-01
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"22850\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"938\",\"corrAddrCity\":\"ALEXANDRIA\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"3337\",\"lastUpdatedTimestamp\":\"2023-12-06T12:08:02.846Z\",\"cmsData\":[\"{13824533|2023-08-01
       20:00:00|PROSECUTION|List of References cited by applicant and considered by
       examiner|1449|4|LKQWDDE6GREENX1},{13824533|2023-08-01 20:00:00|PROSECUTION|Issue
       Information including classification, examiner, name, claim, renumbering, etc.|IIFW|3|LKQWDDDRGREENX1},{13824533|2023-08-01
@@ -1314,7 +1314,7 @@ interactions:
       Filing System(EFS) Acknowledgment Receipt|N417|3|HEFYANANPXXIFW3},{13824533|2013-03-17
       20:00:00|PROSECUTION|Claims|CLM|5|HEFYAN9QPXXIFW3},{13824533|2013-03-17 20:00:00|PROSECUTION|Applicant
       Arguments/Remarks Made in an Amendment|REM|1|HEFYAN9YPXXIFW3},{13824533|2013-03-17
-      20:00:00|PROSECUTION|Application Data Sheet|ADS|6|HEFYANAVPXXIFW3}\"],\"appAttrDockNumberFacet\":\"478926US\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"22850\",\"_version_\":1783958096248307712,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20130280197A1\",\"patentNumberFacet\":\"11819563\"},{\"corrAddrCountryName\":\"UNITED
+      20:00:00|PROSECUTION|Application Data Sheet|ADS|6|HEFYANAVPXXIFW3}\"],\"appAttrDockNumberFacet\":\"478926US\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"22850\",\"_version_\":1784534258494210048,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20130280197A1\",\"patentNumberFacet\":\"11819563\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"13825788\",\"totalPtoDays\":\"1333\",\"assignments\":[{\"reelNumber\":\"30314\",\"frameNumber\":\"930\",\"addressNameText\":\"CARYNE
       BROWN-SMITH\",\"addressLineOneText\":\"3000 K STREET NW\",\"addressLineTwoText\":\"SUITE
       500\",\"addressLineThreeText\":\"WASHINGTON, DC 20007\",\"addressLineFourText\":\"null\",\"mailDate\":\"05-01-2013\",\"receivedDate\":\"04-30-2013\",\"recordedDate\":\"04-30-2013\",\"pagesCount\":\"4\",\"converyanceName\":\"ASSIGNMENT
@@ -1323,7 +1323,7 @@ interactions:
       LTD.\",\"streetLineOneText\":\"PALMDOHLEN HOUSE\",\"streetLineTwoText\":\"DOORADOYLE
       ROAD\",\"cityName\":\"LIMERICK\",\"countryCode\":\"IRELAND\",\"postalCode\":\"null\"}]}],\"appFilingDate\":\"2013-05-29T00:00:00Z\",\"appExamName\":\"GILLETT,
       JENNIFER ANN\",\"appExamNameFacet\":\"GILLETT, JENNIFER ANN\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Leonard
-      W. Miller\",\"inventorNameFacet\":\"Leonard W. Miller\",\"appEarlyPubDate\":\"2013-09-19T00:00:00Z\",\"corrAddrGeoRegionCode\":\"DC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20130239503A1\",\"id\":\"13825788\",\"appGrpArtNumber\":\"1789\",\"appGrpArtNumberFacet\":\"1789\",\"applIdStr\":\"13825788\",\"appl_id_txt\":\"13825788\",\"appSubCls\":\"292100\",\"patentNumber\":\"11820709\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      W. Miller\",\"inventorNameFacet\":\"Leonard W. Miller\",\"appEarlyPubDate\":\"2013-09-19T00:00:00Z\",\"corrAddrGeoRegionCode\":\"DC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20130239503A1\",\"id\":\"13825788\",\"appGrpArtNumber\":\"1789\",\"appGrpArtNumberFacet\":\"1789\",\"applIdStr\":\"13825788\",\"appl_id_txt\":\"13825788\",\"appSubCls\":\"292100\",\"patentNumber\":\"11820709\",\"LAST_MOD_TS\":\"2023-12-05T05:21:04Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -1493,7 +1493,7 @@ interactions:
       CFR 1.27\"},{\"recordDate\":\"2013-03-22 00:00:00\",\"code\":\"WIDS\",\"description\":\"Information
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2013-03-22 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2013-03-22
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"428\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"428\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"SUITE
       600\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"182.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"894\",\"applDays\":\"\",\"start\":\"182.4\"},{\"number\":\"182.4\",\"ptaOrPteDate\":\"04-22-2013\",\"contentsDescription\":\"Commencement
@@ -1755,7 +1755,7 @@ interactions:
       Jennie  \",\"phoneNum\":\"617-226-3135\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"80561\",\"fullName\":\"Gamache,
       Timothy  \",\"phoneNum\":\"617-342-4033\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"80396\",\"fullName\":\"Bowles,
       David  \",\"phoneNum\":\"617-342-4046\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"PCT/NO2011/000300\",\"applicationNumberText\":\"13825788\",\"filingDate\":\"10-21-2011\",\"aiaIndicator\":\"\",\"patentNumberText\":\"11820709\",\"applicationStatus\":\"Published\",\"applicationStatusDescription\":\"This
-      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"22428\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1888\",\"corrAddrCity\":\"WASHINGTON\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"2975\",\"lastUpdatedTimestamp\":\"2023-11-30T03:29:59.192Z\",\"cmsData\":[\"{13825788|2023-07-11
+      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"22428\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1888\",\"corrAddrCity\":\"WASHINGTON\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"2975\",\"lastUpdatedTimestamp\":\"2023-12-06T12:06:35.172Z\",\"cmsData\":[\"{13825788|2023-07-11
       20:00:00|PROSECUTION|Miscellaneous Communication to Applicant - No Action Count|M327|3|LJXOS0CZGREENX1},{13825788|2023-07-02
       20:00:00|PROSECUTION|Notice of Allowance and Fees Due (PTOL-85)|NOA|7|LJHJBZOIGREENX4},{13825788|2023-07-02
       20:00:00|PROSECUTION|Issue Information including classification, examiner, name,
@@ -1988,7 +1988,7 @@ interactions:
       20:00:00|PROSECUTION|Preliminary Amendment|A.PE|2|HELXJVVBPXXIFW3},{13825788|2013-03-21
       20:00:00|PROSECUTION|Documents submitted with 371 (National Stage) Applications|371P|2|HELXJVUOPXXIFW3},{13825788|2013-03-21
       20:00:00|PROSECUTION|Specification|SPEC|1|HEVL80X6PXXIFW1},{13825788|2013-03-21
-      20:00:00|PROSECUTION|Documents submitted with 371 (National Stage) Applications|371P|29|HELXJVTRPXXIFW3}\"],\"appAttrDockNumberFacet\":\"033246-0184\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"22428\",\"_version_\":1783958080837386240,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20130239503A1\",\"patentNumberFacet\":\"11820709\"},{\"corrAddrCountryName\":\"UNITED
+      20:00:00|PROSECUTION|Documents submitted with 371 (National Stage) Applications|371P|29|HELXJVTRPXXIFW3}\"],\"appAttrDockNumberFacet\":\"033246-0184\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"22428\",\"_version_\":1784534170942308353,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20130239503A1\",\"patentNumberFacet\":\"11820709\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"13875741\",\"totalPtoDays\":\"1347\",\"assignments\":[{\"reelNumber\":\"33586\",\"frameNumber\":\"367\",\"addressNameText\":\"PERKINS
       COIE LLP\",\"addressLineOneText\":\"P.O. BOX 1247\",\"addressLineTwoText\":\"PATENT
       PROCUREMENT\",\"addressLineThreeText\":\"SEATTLE, WA 98111-1247\",\"addressLineFourText\":\"null\",\"mailDate\":\"08-22-2014\",\"receivedDate\":\"08-21-2014\",\"recordedDate\":\"08-21-2014\",\"pagesCount\":\"3\",\"converyanceName\":\"ASSIGNMENT
@@ -1999,7 +1999,7 @@ interactions:
       \",\"geoCode\":\"\",\"country\":\"(PT)\",\"rankNo\":\"2\"}],\"applicantsFacet\":\"{||Fraunhofer
       Portugal Research||||Porto||PT|ORG|2}\",\"appFilingDate\":\"2013-05-02T00:00:00Z\",\"appExamName\":\"GAO,
       JING\",\"appExamNameFacet\":\"GAO, JING\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Dirk
-      \ ELIAS\",\"inventorNameFacet\":\"Dirk  ELIAS\",\"appEarlyPubDate\":\"2013-09-19T00:00:00Z\",\"corrAddrGeoRegionCode\":\"WA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20130244700A1\",\"id\":\"13875741\",\"appGrpArtNumber\":\"2647\",\"appGrpArtNumberFacet\":\"2647\",\"applIdStr\":\"13875741\",\"appl_id_txt\":\"13875741\",\"appSubCls\":\"456600\",\"patentNumber\":\"11825315\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ ELIAS\",\"inventorNameFacet\":\"Dirk  ELIAS\",\"appEarlyPubDate\":\"2013-09-19T00:00:00Z\",\"corrAddrGeoRegionCode\":\"WA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20130244700A1\",\"id\":\"13875741\",\"appGrpArtNumber\":\"2647\",\"appGrpArtNumberFacet\":\"2647\",\"applIdStr\":\"13875741\",\"appl_id_txt\":\"13875741\",\"appSubCls\":\"456600\",\"patentNumber\":\"11825315\",\"LAST_MOD_TS\":\"2023-12-04T13:53:11Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -2200,7 +2200,7 @@ interactions:
       to Level 2 (LARS) by OIPE CSR\"},{\"recordDate\":\"2013-05-02 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2013-05-02 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2013-05-02
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"455\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T20:15:02Z\",\"appCls\":\"455\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"230.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"793\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"230\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"228\",\"ptaOrPteDate\":\"10-17-2023\",\"contentsDescription\":\"Dispatch
@@ -2389,7 +2389,7 @@ interactions:
       BOX 1247\",\"firstInventorFile\":\"No\",\"overlapDelay\":\"0\",\"aDelay\":\"987\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"98111-1247\",\"appCustNumber\":\"22918\",\"appClsSubCls\":\"455/456600\",\"appClsSubClsFacet\":\"455/456600\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"793\",\"corrAddrNameLineOne\":\"PERKINS
       COIE LLP - PAO General\",\"firstNamedApplicant\":[\"  Fraunhofer Portugal Research\"],\"firstNamedApplicantFacet\":\"
       \ Fraunhofer Portugal Research\",\"parentContinuity\":[{\"claimApplicationNumberText\":\"PCT/EP2011/069321\",\"applicationNumberText\":\"13875741\",\"filingDate\":\"11-03-2011\",\"aiaIndicator\":\"\",\"patentNumberText\":\"11825315\",\"applicationStatus\":\"-\",\"applicationStatusDescription\":\"This
-      application is a Continuation of\"}],\"corrAddrCustNo\":\"22918\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1780\",\"corrAddrCity\":\"SEATTLE\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"5619\",\"lastUpdatedTimestamp\":\"2023-11-30T04:16:03.347Z\",\"cmsData\":[\"{13875741|2023-07-18
+      application is a Continuation of\"}],\"corrAddrCustNo\":\"22918\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1780\",\"corrAddrCity\":\"SEATTLE\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"5619\",\"lastUpdatedTimestamp\":\"2023-12-05T15:54:45.724Z\",\"cmsData\":[\"{13875741|2023-07-18
       05:02:20|PROSECUTION|Notice of Allowance and Fees Due (PTOL-85)|NOA|10|LK2TUM9CGREENX5},{13875741|2023-07-18
       05:02:20|PROSECUTION|Search information including classification, databases
       and other search related notes|SRFW|3|LK2TUM9DGREENX5},{13875741|2023-07-18
@@ -2629,7 +2629,7 @@ interactions:
       20:00:00|PROSECUTION|Drawings-only black and white line drawings|DRW|5|HG8CH7TOPXXIFW3},{13875741|2013-05-01
       20:00:00|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|HG8CH7U0PXXIFW3},{13875741|2013-05-01
       20:00:00|PROSECUTION|Specification|SPEC|24|HG8CH7SSPXXIFW3},{13875741|2013-05-01
-      20:00:00|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|2|HG8CH7UEPXXIFW3}\"],\"appAttrDockNumberFacet\":\"110971-8911.US01\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"22918\",\"_version_\":1783961039679782912,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20130244700A1\",\"patentNumberFacet\":\"11825315\"},{\"corrAddrCountryName\":\"UNITED
+      20:00:00|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|2|HG8CH7UEPXXIFW3}\"],\"appAttrDockNumberFacet\":\"110971-8911.US01\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"22918\",\"_version_\":1784458010225016832,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20130244700A1\",\"patentNumberFacet\":\"11825315\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"13885233\",\"totalPtoDays\":\"1116\",\"assignments\":[{\"reelNumber\":\"30427\",\"frameNumber\":\"262\",\"addressNameText\":\"STITES
       & HARBISON PLLC\",\"addressLineOneText\":\"1199 N. FAIRFAX STREET, SUITE 900\",\"addressLineTwoText\":\"STITES
       & HARBISON PLLC\",\"addressLineThreeText\":\"ALEXANDRIA, VA 22314\",\"addressLineFourText\":\"null\",\"mailDate\":\"05-17-2013\",\"receivedDate\":\"05-16-2013\",\"recordedDate\":\"05-16-2013\",\"pagesCount\":\"3\",\"converyanceName\":\"ASSIGNMENT
@@ -2644,7 +2644,7 @@ interactions:
       ROBOTS A/S\",\"streetLineOneText\":\"SVENDBORGJEV 102\",\"streetLineTwoText\":\"null\",\"cityName\":\"ODENSE
       S.\",\"countryCode\":\"DENMARK\",\"postalCode\":\"5260\"}]}],\"appFilingDate\":\"2013-05-14T00:00:00Z\",\"appExamName\":\"MANCHO,
       RONNIE M\",\"appExamNameFacet\":\"MANCHO, RONNIE M\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Esben
-      Hallundb\xE6k \xD8stergaard\",\"inventorNameFacet\":\"Esben Hallundb\xE6k \xD8stergaard\",\"appEarlyPubDate\":\"2013-09-05T00:00:00Z\",\"corrAddrGeoRegionCode\":\"MA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20130231778A1\",\"id\":\"13885233\",\"appGrpArtNumber\":\"3664\",\"appGrpArtNumberFacet\":\"3664\",\"applIdStr\":\"13885233\",\"appl_id_txt\":\"13885233\",\"appSubCls\":\"245000\",\"patentNumber\":\"11822355\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      Hallundb\xE6k \xD8stergaard\",\"inventorNameFacet\":\"Esben Hallundb\xE6k \xD8stergaard\",\"appEarlyPubDate\":\"2013-09-05T00:00:00Z\",\"corrAddrGeoRegionCode\":\"MA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20130231778A1\",\"id\":\"13885233\",\"appGrpArtNumber\":\"3664\",\"appGrpArtNumberFacet\":\"3664\",\"applIdStr\":\"13885233\",\"appl_id_txt\":\"13885233\",\"appSubCls\":\"245000\",\"patentNumber\":\"11822355\",\"LAST_MOD_TS\":\"2023-12-04T13:53:11Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -2875,7 +2875,7 @@ interactions:
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2013-05-14 00:00:00\",\"code\":\"L194\",\"description\":\"Cleared
       by OIPE CSR\"},{\"recordDate\":\"2013-05-14 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2013-05-14
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"700\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T20:15:02Z\",\"appCls\":\"700\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"257.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"143\",\"applDays\":\"\",\"start\":\"257.4\"},{\"number\":\"257.4\",\"ptaOrPteDate\":\"05-14-2013\",\"contentsDescription\":\"Commencement
       Date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"257\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -3127,7 +3127,7 @@ interactions:
       Daniel  \",\"phoneNum\":\"978-500-6064\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"75075\",\"fullName\":\"Karimi,
       Pegah  \",\"phoneNum\":\"617-345-3630\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"47259\",\"fullName\":\"Stecher,
       Peter  \",\"phoneNum\":\"617-350-6800\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"PCT/EP2011/070228\",\"applicationNumberText\":\"13885233\",\"filingDate\":\"11-16-2011\",\"aiaIndicator\":\"\",\"patentNumberText\":\"11822355\",\"applicationStatus\":\"Published\",\"applicationStatusDescription\":\"This
-      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"165522\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1466\",\"corrAddrCity\":\"Boston\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"7091\",\"lastUpdatedTimestamp\":\"2023-11-30T04:15:52.432Z\",\"cmsData\":[\"{13885233|2023-07-09
+      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"165522\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1466\",\"corrAddrCity\":\"Boston\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"7091\",\"lastUpdatedTimestamp\":\"2023-12-05T15:48:54.426Z\",\"cmsData\":[\"{13885233|2023-07-09
       20:00:00|PROSECUTION|List of References cited by applicant and considered by
       examiner|1449|4|LJR710CIGREENX4},{13885233|2023-07-09 20:00:00|PROSECUTION|Notice
       of Allowance and Fees Due (PTOL-85)|NOA|6|LJR710CHGREENX4},{13885233|2023-06-27
@@ -3447,7 +3447,7 @@ interactions:
       20:00:00|PROSECUTION|Other reference-Patent/Application/Search Documents|REF.OTHER|10|HGPCSE92PXXIFW3},{13885233|2013-05-13
       20:00:00|PROSECUTION|Documents submitted with 371 (National Stage) Applications|371P|3|HGPCSE9FPXXIFW3},{13885233|2013-05-13
       20:00:00|PROSECUTION|Abstract|ABST|2|HGS0PVG9PXXIFW4}\"],\"appAttrDockNumberFacet\":\"2012352-0001
-      (2703-US)\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"165522\",\"_version_\":1783961019629961216,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20130231778A1\",\"patentNumberFacet\":\"11822355\"},{\"corrAddrCountryName\":\"UNITED
+      (2703-US)\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"165522\",\"_version_\":1784457961033170944,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20130231778A1\",\"patentNumberFacet\":\"11822355\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14192838\",\"totalPtoDays\":\"477\",\"assignments\":[{\"reelNumber\":\"32611\",\"frameNumber\":\"764\",\"addressNameText\":\"KRISTINE
       DUMAS-SCARBER\",\"addressLineOneText\":\"10001 RICHMOND AVENUE\",\"addressLineTwoText\":\"ROOM
       4720\",\"addressLineThreeText\":\"HOUSTON, TX 77042\",\"addressLineFourText\":\"null\",\"mailDate\":\"04-08-2014\",\"receivedDate\":\"04-06-2014\",\"recordedDate\":\"04-06-2014\",\"pagesCount\":\"9\",\"converyanceName\":\"ASSIGNMENT
@@ -3460,7 +3460,7 @@ interactions:
       Land, \",\"geoCode\":\"TX\",\"country\":\"(US)\",\"rankNo\":\"0\"}],\"applicantsFacet\":\"{||SCHLUMBERGER
       TECHNOLOGY CORPORATION||||Sugar Land|TX|US|ORG|0}\",\"appFilingDate\":\"2014-02-27T00:00:00Z\",\"appExamName\":\"HOWELL,
       MARC C\",\"appExamNameFacet\":\"HOWELL, MARC C\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Rajesh
-      \ Luharuka\",\"inventorNameFacet\":\"Rajesh  Luharuka\",\"appEarlyPubDate\":\"2015-08-27T00:00:00Z\",\"corrAddrGeoRegionCode\":\"TX\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150238913A1\",\"id\":\"14192838\",\"appGrpArtNumber\":\"1774\",\"appGrpArtNumberFacet\":\"1774\",\"applIdStr\":\"14192838\",\"appl_id_txt\":\"14192838\",\"appSubCls\":\"138000\",\"patentNumber\":\"11819810\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ Luharuka\",\"inventorNameFacet\":\"Rajesh  Luharuka\",\"appEarlyPubDate\":\"2015-08-27T00:00:00Z\",\"corrAddrGeoRegionCode\":\"TX\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150238913A1\",\"id\":\"14192838\",\"appGrpArtNumber\":\"1774\",\"appGrpArtNumberFacet\":\"1774\",\"applIdStr\":\"14192838\",\"appl_id_txt\":\"14192838\",\"appSubCls\":\"138000\",\"patentNumber\":\"11819810\",\"LAST_MOD_TS\":\"2023-12-05T05:21:04Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -3696,7 +3696,7 @@ interactions:
       00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW Scan & PACR Auto Security
       Review\"},{\"recordDate\":\"2014-02-27 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2014-02-27
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"366\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"366\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"IP
       Administration Center of  Excellence\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"262.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"496\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"262\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -3957,7 +3957,7 @@ interactions:
       Rachel  \",\"phoneNum\":\"281-389-8742\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"62001\",\"fullName\":\"Hewitt,
       Cathy  \",\"phoneNum\":\"281-285-4679\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"52822\",\"fullName\":\"Ballew,
       Kimberly  \",\"phoneNum\":\"281-765-4314\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"77745\",\"fullName\":\"Brown,
-      Garry  Jr.\",\"phoneNum\":\"504-975-2874\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"27452\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1022\",\"corrAddrCity\":\"Houston\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"6287\",\"lastUpdatedTimestamp\":\"2023-11-30T03:03:25.986Z\",\"cmsData\":[\"{14192838|2023-08-17
+      Garry  Jr.\",\"phoneNum\":\"504-975-2874\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"27452\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1022\",\"corrAddrCity\":\"Houston\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"6287\",\"lastUpdatedTimestamp\":\"2023-12-06T10:54:13.543Z\",\"cmsData\":[\"{14192838|2023-08-17
       20:00:00|PROSECUTION|Response to Amendment under Rule 312|N271|2|LLE0NRY3XBLUEX1},{14192838|2023-08-17
       20:00:00|PROSECUTION|Amendment After Final or under 37CFR 1.312, initialed by
       the examiner.|ANE.I|1|LLE0NRYAXBLUEX1},{14192838|2023-08-09 11:13:50|PROSECUTION|Applicant
@@ -4306,7 +4306,7 @@ interactions:
       black and white line drawings|DRW|10|HS6VUUCZPXXIFW3},{14192838|2014-02-26 19:00:00|PROSECUTION|Specification|SPEC|18|HS6VUUC6PXXIFW3},{14192838|2014-02-26
       19:00:00|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|3|HS6VUUDEPXXIFW3},{14192838|2014-02-26
       19:00:00|PROSECUTION|Claims|CLM|4|HS6VUUCDPXXIFW3},{14192838|2014-02-26 19:00:00|PROSECUTION|Fee
-      Worksheet (SB06)|WFEE|2|HS6VUUD7PXXIFW3}\"],\"appAttrDockNumberFacet\":\"IS13.4356-US-NP[2]\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"27452\",\"_version_\":1783956443285684224,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150238913A1\",\"patentNumberFacet\":\"11819810\"},{\"corrAddrCountryName\":\"UNITED
+      Worksheet (SB06)|WFEE|2|HS6VUUD7PXXIFW3}\"],\"appAttrDockNumberFacet\":\"IS13.4356-US-NP[2]\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"27452\",\"_version_\":1784531086983823360,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150238913A1\",\"patentNumberFacet\":\"11819810\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14503235\",\"totalPtoDays\":\"0\",\"assignments\":[{\"reelNumber\":\"52726\",\"frameNumber\":\"71\",\"addressNameText\":\"DAVIS
       WRIGHT TREMAINE LLP - ATI\",\"addressLineOneText\":\"920 FIFTH AVENUE, SUITE
       3300\",\"addressLineTwoText\":\"SEATTLE, WA 98104-1610\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"05-22-2020\",\"receivedDate\":\"05-21-2020\",\"recordedDate\":\"05-21-2020\",\"pagesCount\":\"11\",\"converyanceName\":\"ASSIGNMENT
@@ -4321,8 +4321,9 @@ interactions:
       Technologies, Inc.||||Seattle|WA||ORG|1}\",\"appFilingDate\":\"2014-09-30T00:00:00Z\",\"appExamName\":\"MCGHEE,
       TRACY M\",\"appExamNameFacet\":\"MCGHEE, TRACY M\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Santosh
       \ Kalki\",\"inventorNameFacet\":\"Santosh  Kalki\",\"corrAddrGeoRegionCode\":\"WA\",\"corrAddrNameLineTwo\":\"IP
-      Docketing Dept.\",\"appLocation\":\"ELECTRONIC\",\"id\":\"14503235\",\"appGrpArtNumber\":\"2154\",\"appGrpArtNumberFacet\":\"2154\",\"applIdStr\":\"14503235\",\"appl_id_txt\":\"14503235\",\"appSubCls\":\"607000\",\"patentNumber\":\"11822575\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"707\",\"appStatus\":\"Patented
-      Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"175.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
+      Docketing Dept.\",\"appLocation\":\"ELECTRONIC\",\"id\":\"14503235\",\"appGrpArtNumber\":\"2154\",\"appGrpArtNumberFacet\":\"2154\",\"applIdStr\":\"14503235\",\"appl_id_txt\":\"14503235\",\"appSubCls\":\"607000\",\"patentNumber\":\"11822575\",\"LAST_MOD_TS\":\"2023-12-01T05:55:41Z\",\"LAST_INSERT_TIME\":\"2023-12-01T11:25:03Z\",\"appCls\":\"707\",\"appStatus\":\"Publications
+      -- Issue Fee Payment Verified\",\"appStatusFacet\":\"Publications -- Issue Fee
+      Payment Verified\",\"appStatus_txt\":\"Publications -- Issue Fee Payment Verified\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"175.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"246\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"175\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"37\",\"applDays\":\"\",\"start\":\"165\"},{\"number\":\"173\",\"ptaOrPteDate\":\"08-21-2023\",\"contentsDescription\":\"Dispatch
       to FDC\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"172\",\"ptaOrPteDate\":\"08-21-2023\",\"contentsDescription\":\"Application
@@ -4466,7 +4467,7 @@ interactions:
       Status Set To Undiscounted (Initial Default Setting or Status Change)\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"1\",\"ptaOrPteDate\":\"09-30-2014\",\"contentsDescription\":\"Initial
       Exam Team nn\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"0.5\",\"ptaOrPteDate\":\"09-30-2014\",\"contentsDescription\":\"Filing
       date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"}],\"patentTitle\":\"AUTOMATED
-      HIERARCHY DETECTION FOR CLOUD-BASED ANALYTICS\",\"applDelay\":\"1038\",\"cDelay\":\"0\",\"appStatusDate\":\"2023-11-01T00:00:00Z\",\"appAttrDockNumber\":\"0097749-A52US0\",\"inventors\":[{\"nameLineOne\":\"Kalki\",\"nameLineTwo\":\"Santosh
+      HIERARCHY DETECTION FOR CLOUD-BASED ANALYTICS\",\"applDelay\":\"1038\",\"cDelay\":\"0\",\"appStatusDate\":\"2023-11-30T00:00:00Z\",\"appAttrDockNumber\":\"0097749-A52US0\",\"inventors\":[{\"nameLineOne\":\"Kalki\",\"nameLineTwo\":\"Santosh
       \",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Seattle,
       \",\"geoCode\":\"WA\",\"country\":\"(US)\",\"rankNo\":\"1\"},{\"nameLineOne\":\"Raghavan\",\"nameLineTwo\":\"Srinivasan
       Sundar\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Mercer
@@ -4484,7 +4485,8 @@ interactions:
       Fifth Ave., Suite 3300\",\"firstInventorFile\":\"Yes\",\"overlapDelay\":\"37\",\"aDelay\":\"492\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"98104-1610\",\"appCustNumber\":\"113507\",\"appClsSubCls\":\"707/607000\",\"appClsSubClsFacet\":\"707/607000\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"246\",\"corrAddrNameLineOne\":\"Davis
       Wright Tremaine LLP - ATI\",\"firstNamedApplicant\":[\"  Amazon Technologies,
       Inc.\"],\"firstNamedApplicantFacet\":\"  Amazon Technologies, Inc.\",\"parentContinuity\":[{\"claimApplicationNumberText\":\"62015308\",\"applicationNumberText\":\"14503235\",\"filingDate\":\"06-20-2014\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"113507\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"701\",\"corrAddrCity\":\"Seattle\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"3854\",\"lastUpdatedTimestamp\":\"2023-11-30T03:35:59.408Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"113507\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"701\",\"corrAddrCity\":\"Seattle\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"3854\",\"lastUpdatedTimestamp\":\"2023-12-02T07:24:17.238Z\",\"transactions\":[{\"recordDate\":\"2023-11-30
+      00:00:00\",\"code\":\"WFIS\",\"description\":\"Withdrawal Patent Case from Issue\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"CCRDY\",\"description\":\"Application ready for PDX access
       by participating foreign offices\"},{\"recordDate\":\"2023-11-02 00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email
@@ -4633,7 +4635,7 @@ interactions:
       have given acceptable permission for participating foreign \"},{\"recordDate\":\"2014-09-30
       00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity Status Set To Undiscounted
       (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2014-09-30 00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial
-      Exam Team nn\"}],\"appAttrDockNumberFacet\":\"0097749-A52US0\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"113507\",\"_version_\":1783958554869235712,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"patentNumberFacet\":\"11822575\"},{\"corrAddrCountryName\":\"UNITED
+      Exam Team nn\"}],\"appAttrDockNumberFacet\":\"0097749-A52US0\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"113507\",\"_version_\":1784156278541516800,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"patentNumberFacet\":\"11822575\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14509247\",\"totalPtoDays\":\"1456\",\"assignments\":[{\"reelNumber\":\"34363\",\"frameNumber\":\"160\",\"addressNameText\":\"BUCKLEY,
       MASCHOFF & TALWALKAR LLC\",\"addressLineOneText\":\"50 LOCUST AVENUE\",\"addressLineTwoText\":\"NEW
       CANAAN, CT 06840\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"12-04-2014\",\"receivedDate\":\"12-03-2014\",\"recordedDate\":\"12-03-2014\",\"pagesCount\":\"6\",\"converyanceName\":\"ASSIGNMENT
@@ -4647,7 +4649,7 @@ interactions:
       International Incorporated||||Purchase|NY||ORG|1}\",\"appFilingDate\":\"2014-10-08T00:00:00Z\",\"appExamName\":\"CASTILHO,
       EDUARDO D\",\"appExamNameFacet\":\"CASTILHO, EDUARDO D\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Craig
       \ Gilbert\",\"inventorNameFacet\":\"Craig  Gilbert\",\"appEarlyPubDate\":\"2015-06-11T00:00:00Z\",\"corrAddrGeoRegionCode\":\"CT\",\"corrAddrNameLineTwo\":\"c/o
-      Buckley, Maschoff & Talwalkar LLC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150161608A1\",\"id\":\"14509247\",\"appGrpArtNumber\":\"3685\",\"appGrpArtNumberFacet\":\"3685\",\"applIdStr\":\"14509247\",\"appl_id_txt\":\"14509247\",\"appSubCls\":\"075000\",\"patentNumber\":\"11823190\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      Buckley, Maschoff & Talwalkar LLC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150161608A1\",\"id\":\"14509247\",\"appGrpArtNumber\":\"3685\",\"appGrpArtNumberFacet\":\"3685\",\"applIdStr\":\"14509247\",\"appl_id_txt\":\"14509247\",\"appSubCls\":\"075000\",\"patentNumber\":\"11823190\",\"LAST_MOD_TS\":\"2023-12-04T13:21:01Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -4827,7 +4829,7 @@ interactions:
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2014-10-08 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2014-10-08 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2014-10-08
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T20:15:02Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"Suite
       301\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"181.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"721\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"181\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -5004,7 +5006,7 @@ interactions:
       \",\"geoCode\":\"MO\",\"country\":\"(US)\",\"rankNo\":\"2\"},{\"nameLineOne\":\"Williamson\",\"nameLineTwo\":\"Gregory
       D.\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Stamford,
       \",\"geoCode\":\"CT\",\"country\":\"(US)\",\"rankNo\":\"3\"}],\"inventorsFacet\":\"{Craig||Gilbert||||Chesterfield|MO|US|IND|1},{Brian|John|Piel||||Ballwin|MO|US|IND|2},{Gregory|D.|Williamson||||Stamford|CT|US|IND|3}\",\"ptoAdjustments\":\"0\",\"corrAddrStreetLineOne\":\"134
-      Main Street\",\"firstInventorFile\":\"Yes\",\"childContinuity\":[{\"claimApplicationNumberText\":\"18514416\",\"applicationNumberText\":\"14509247\",\"filingDate\":\"01-01-0001\",\"aiaIndicator\":\"Y\",\"patentNumberText\":\"\",\"applicationStatus\":\"Pending\",\"applicationStatusDescription\":\"claims
+      Main Street\",\"firstInventorFile\":\"Yes\",\"childContinuity\":[{\"claimApplicationNumberText\":\"18514416\",\"applicationNumberText\":\"14509247\",\"filingDate\":\"11-20-2023\",\"aiaIndicator\":\"Y\",\"patentNumberText\":\"\",\"applicationStatus\":\"Pending\",\"applicationStatusDescription\":\"claims
       the benefit of\"},{\"claimApplicationNumberText\":\"PCT/US14/68137\",\"applicationNumberText\":\"14509247\",\"filingDate\":\"12-02-2014\",\"aiaIndicator\":\"Y\",\"patentNumberText\":\"\",\"applicationStatus\":\"Published\",\"applicationStatusDescription\":\"claims
       the benefit of\"}],\"overlapDelay\":\"178\",\"aDelay\":\"1162\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"06840\",\"appCustNumber\":\"125619\",\"appClsSubCls\":\"705/075000\",\"appClsSubClsFacet\":\"705/075000\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"721\",\"corrAddrNameLineOne\":\"Mastercard
       International Incorporated\",\"firstNamedApplicant\":[\"  MasterCard International
@@ -5023,7 +5025,7 @@ interactions:
       Andrew  \",\"phoneNum\":\"314-259-4708\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"66155\",\"fullName\":\"Tempesta,
       Edward  \",\"phoneNum\":\"914-249-2989\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"61913670\",\"applicationNumberText\":\"14509247\",\"filingDate\":\"12-09-2013\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
       application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"125619\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1705\",\"corrAddrCity\":\"New
-      Canaan\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"1080\",\"lastUpdatedTimestamp\":\"2023-11-30T03:35:20.982Z\",\"cmsData\":[\"{14509247|2023-07-18
+      Canaan\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"1080\",\"lastUpdatedTimestamp\":\"2023-12-05T15:06:46.633Z\",\"cmsData\":[\"{14509247|2023-07-18
       20:00:00|PROSECUTION|Examiner's search strategy and results|SRNT|447|LK6S80BKGREENX0},{14509247|2023-07-18
       20:00:00|PROSECUTION|Notice of Allowance and Fees Due (PTOL-85)|NOA|11|LK6S80BEGREENX0},{14509247|2023-07-18
       20:00:00|PROSECUTION|Issue Information including classification, examiner, name,
@@ -5332,10 +5334,10 @@ interactions:
       black and white line drawings|DRW|12|I10XIYT7PXXIFW3},{14509247|2014-10-07 20:00:00|PROSECUTION|Transmittal
       of New Application|TRNA|2|I10XIYSCPXXIFW3},{14509247|2014-10-07 20:00:00|PROSECUTION|Fee
       Worksheet (SB06)|WFEE|2|I10XIYSLPXXIFW3}\"],\"appAttrDockNumberFacet\":\"P01409-US-UTIL
-      (M01.266)\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"125619\",\"_version_\":1783958538172760064,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150161608A1\",\"patentNumberFacet\":\"11823190\"},{\"corrAddrCountryName\":\"UNITED
+      (M01.266)\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"125619\",\"_version_\":1784455701254373376,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150161608A1\",\"patentNumberFacet\":\"11823190\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14518713\",\"totalPtoDays\":\"289\",\"appFilingDate\":\"2014-10-20T00:00:00Z\",\"appExamName\":\"YAMASAKI,
       ROBERT J\",\"appExamNameFacet\":\"YAMASAKI, ROBERT J\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Carlos
-      D. GARCIA\",\"inventorNameFacet\":\"Carlos D. GARCIA\",\"appEarlyPubDate\":\"2015-04-23T00:00:00Z\",\"corrAddrGeoRegionCode\":\"DC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150110848A1\",\"id\":\"14518713\",\"appGrpArtNumber\":\"1657\",\"appGrpArtNumberFacet\":\"1657\",\"applIdStr\":\"14518713\",\"appl_id_txt\":\"14518713\",\"appSubCls\":\"176000\",\"patentNumber\":\"11819592\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      D. GARCIA\",\"inventorNameFacet\":\"Carlos D. GARCIA\",\"appEarlyPubDate\":\"2015-04-23T00:00:00Z\",\"corrAddrGeoRegionCode\":\"DC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150110848A1\",\"id\":\"14518713\",\"appGrpArtNumber\":\"1657\",\"appGrpArtNumberFacet\":\"1657\",\"applIdStr\":\"14518713\",\"appl_id_txt\":\"14518713\",\"appSubCls\":\"176000\",\"patentNumber\":\"11819592\",\"LAST_MOD_TS\":\"2023-12-04T13:53:11Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -5455,7 +5457,7 @@ interactions:
       OIPE CSR\"},{\"recordDate\":\"2014-10-20 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2014-10-20 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2014-10-20
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"435\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T20:15:02Z\",\"appCls\":\"435\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"Suite
       500\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"133.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"332\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"133\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -5578,7 +5580,7 @@ interactions:
       Antonio|TX|US|IND|3}\",\"ptoAdjustments\":\"0\",\"corrAddrStreetLineOne\":\"1101
       30th Street, NW\",\"firstInventorFile\":\"Yes\",\"overlapDelay\":\"0\",\"aDelay\":\"628\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"20007\",\"appCustNumber\":\"83682\",\"appClsSubCls\":\"435/176000\",\"appClsSubClsFacet\":\"435/176000\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"332\",\"corrAddrNameLineOne\":\"Nevrivy
       Patent Law Group  P.L.L.C.\",\"parentContinuity\":[{\"claimApplicationNumberText\":\"61892819\",\"applicationNumberText\":\"14518713\",\"filingDate\":\"10-18-2013\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"83682\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"960\",\"corrAddrCity\":\"Washington\",\"appEntityStatus\":\"MICRO\",\"appConfrNumber\":\"9819\",\"lastUpdatedTimestamp\":\"2023-11-30T03:35:59.408Z\",\"cmsData\":[\"{14518713|2023-08-09
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"83682\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"960\",\"corrAddrCity\":\"Washington\",\"appEntityStatus\":\"MICRO\",\"appConfrNumber\":\"9819\",\"lastUpdatedTimestamp\":\"2023-12-05T15:17:14.134Z\",\"cmsData\":[\"{14518713|2023-08-09
       20:00:00|PROSECUTION|Miscellaneous Communication to Applicant - No Action Count|M327|3|LL35N6I3GREENX5},{14518713|2023-07-16
       20:00:00|PROSECUTION|Examiner Interview Summary Record (PTOL - 413)|EXIN|1|LK12IAMCGREENX3},{14518713|2023-07-16
       20:00:00|PROSECUTION|Notice of Allowance and Fees Due (PTOL-85)|NOA|9|LK12IAMBGREENX3},{14518713|2023-07-16
@@ -5799,7 +5801,7 @@ interactions:
       20:00:00|PROSECUTION|Oath or Declaration filed|OATH|1|I1IBZH62PXXIFW3},{14518713|2014-10-19
       20:00:00|PROSECUTION|Authorization for Extension of Time all replies|136A|1|I1IBZH6PPXXIFW3},{14518713|2014-10-19
       20:00:00|PROSECUTION|Oath or Declaration filed|OATH|1|I1IBZH6BPXXIFW3},{14518713|2014-10-19
-      20:00:00|PROSECUTION|Transmittal of New Application|TRNA|1|I1IBZH4NPXXIFW3}\"],\"appAttrDockNumberFacet\":\"UTS-002US1\",\"appEntityStatusFacet\":\"MICRO\",\"appCustNumberFacet\":\"83682\",\"_version_\":1783958484870496257,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150110848A1\",\"patentNumberFacet\":\"11819592\"},{\"corrAddrCountryName\":\"UNITED
+      20:00:00|PROSECUTION|Transmittal of New Application|TRNA|1|I1IBZH4NPXXIFW3}\"],\"appAttrDockNumberFacet\":\"UTS-002US1\",\"appEntityStatusFacet\":\"MICRO\",\"appCustNumberFacet\":\"83682\",\"_version_\":1784455734556098560,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150110848A1\",\"patentNumberFacet\":\"11819592\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14590337\",\"totalPtoDays\":\"1349\",\"assignments\":[{\"reelNumber\":\"34644\",\"frameNumber\":\"585\",\"addressNameText\":\"THE
       SMALL PATENT LAW GROUP LLC\",\"addressLineOneText\":\"225 S. MERAMEC, SUITE
       725\",\"addressLineTwoText\":\"ST. LOUIS, MO 63105\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"01-07-2015\",\"receivedDate\":\"01-06-2015\",\"recordedDate\":\"01-06-2015\",\"pagesCount\":\"3\",\"converyanceName\":\"ASSIGNMENT
@@ -5811,7 +5813,8 @@ interactions:
       \",\"geoCode\":\"IL\",\"country\":\"()\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||THE
       BOEING COMPANY||||Chicago|IL||ORG|1}\",\"appFilingDate\":\"2015-01-06T00:00:00Z\",\"appExamName\":\"EMRICH,
       LARISSA ROWE\",\"appExamNameFacet\":\"EMRICH, LARISSA ROWE\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Sesinando
-      P. Macaraeg\",\"inventorNameFacet\":\"Sesinando P. Macaraeg\",\"appEarlyPubDate\":\"2016-07-07T00:00:00Z\",\"corrAddrGeoRegionCode\":\"MO\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160195072A1\",\"id\":\"14590337\",\"appGrpArtNumber\":\"1789\",\"appGrpArtNumberFacet\":\"1789\",\"applIdStr\":\"14590337\",\"appl_id_txt\":\"14590337\",\"appSubCls\":\"221000\",\"patentNumber\":\"11821409\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      P. Macaraeg\",\"inventorNameFacet\":\"Sesinando P. Macaraeg\",\"appEarlyPubDate\":\"2016-07-07T00:00:00Z\",\"corrAddrGeoRegionCode\":\"MO\",\"corrAddrNameLineTwo\":\"Patent
+      Docketing Department, Attn: Raechel Settles\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160195072A1\",\"id\":\"14590337\",\"appGrpArtNumber\":\"1789\",\"appGrpArtNumberFacet\":\"1789\",\"applIdStr\":\"14590337\",\"appl_id_txt\":\"14590337\",\"appSubCls\":\"221000\",\"patentNumber\":\"11821409\",\"LAST_MOD_TS\":\"2023-12-05T05:21:04Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -5963,9 +5966,9 @@ interactions:
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2015-01-06 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2015-01-06 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2015-01-06
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"428\",\"appStatus\":\"Patented
-      Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"Suite
-      100\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"159.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"428\",\"appStatus\":\"Patented
+      Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"MAIL
+      CODE S306-5135, Bldng. 305.2 East\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"159.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"146\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"159\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"157\",\"ptaOrPteDate\":\"10-18-2023\",\"contentsDescription\":\"Dispatch
       to FDC\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"156\",\"ptaOrPteDate\":\"10-18-2023\",\"contentsDescription\":\"Application
@@ -6106,16 +6109,16 @@ interactions:
       Disclosure Statement (IDS) Filed\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"2\",\"ptaOrPteDate\":\"01-06-2015\",\"contentsDescription\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"1\",\"ptaOrPteDate\":\"01-06-2015\",\"contentsDescription\":\"Initial
       Exam Team nn\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"0.5\",\"ptaOrPteDate\":\"01-06-2015\",\"contentsDescription\":\"Filing
-      date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"}],\"corrAddrGeoRegionNA\":\"MISSOURI\",\"patentTitle\":\"ENVIRONMENTAL
+      date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"}],\"patentTitle\":\"ENVIRONMENTAL
       ASPECT CONTROL ASSEMBLY\",\"applDelay\":\"0\",\"cDelay\":\"438\",\"appStatusDate\":\"2023-11-01T00:00:00Z\",\"appAttrDockNumber\":\"14-1182-US-NP
       (800-0063)\",\"inventors\":[{\"nameLineOne\":\"Macaraeg\",\"nameLineTwo\":\"Sesinando
       P.\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Everett,
       \",\"geoCode\":\"WA\",\"country\":\"(US)\",\"rankNo\":\"1\"},{\"nameLineOne\":\"Calkins\",\"nameLineTwo\":\"Frederick
       T.\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Renton,
-      \",\"geoCode\":\"WA\",\"country\":\"(US)\",\"rankNo\":\"2\"}],\"inventorsFacet\":\"{Sesinando|P.|Macaraeg||||Everett|WA|US|IND|1},{Frederick|T.|Calkins||||Renton|WA|US|IND|2}\",\"ptoAdjustments\":\"0\",\"corrAddrStreetLineOne\":\"1423
-      Strassner Dr.\",\"firstInventorFile\":\"Yes\",\"childContinuity\":[{\"claimApplicationNumberText\":\"18483791\",\"applicationNumberText\":\"14590337\",\"filingDate\":\"10-10-2023\",\"aiaIndicator\":\"Y\",\"patentNumberText\":\"\",\"applicationStatus\":\"Pending\",\"applicationStatusDescription\":\"claims
-      the benefit of\"}],\"overlapDelay\":\"0\",\"aDelay\":\"765\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"63144\",\"appCustNumber\":\"107112\",\"appClsSubCls\":\"428/221000\",\"appClsSubClsFacet\":\"428/221000\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"146\",\"corrAddrNameLineOne\":\"The
-      Small Patent Law Group LLC\",\"firstNamedApplicant\":[\"  THE BOEING COMPANY\"],\"firstNamedApplicantFacet\":\"
+      \",\"geoCode\":\"WA\",\"country\":\"(US)\",\"rankNo\":\"2\"}],\"inventorsFacet\":\"{Sesinando|P.|Macaraeg||||Everett|WA|US|IND|1},{Frederick|T.|Calkins||||Renton|WA|US|IND|2}\",\"ptoAdjustments\":\"0\",\"corrAddrStreetLineOne\":\"325
+      J.S. McDonnell Blvd.\",\"firstInventorFile\":\"Yes\",\"childContinuity\":[{\"claimApplicationNumberText\":\"18483791\",\"applicationNumberText\":\"14590337\",\"filingDate\":\"10-10-2023\",\"aiaIndicator\":\"Y\",\"patentNumberText\":\"\",\"applicationStatus\":\"Pending\",\"applicationStatusDescription\":\"claims
+      the benefit of\"}],\"overlapDelay\":\"0\",\"aDelay\":\"765\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"63042\",\"appCustNumber\":\"27113\",\"appClsSubCls\":\"428/221000\",\"appClsSubClsFacet\":\"428/221000\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"146\",\"corrAddrNameLineOne\":\"Boeing
+      Intellectual Property\",\"firstNamedApplicant\":[\"  THE BOEING COMPANY\"],\"firstNamedApplicantFacet\":\"
       \ THE BOEING COMPANY\",\"attrnyAddr\":[{\"applicationId\":null,\"registrationNo\":\"31853\",\"fullName\":\"Mandel,
       Saralynn  \",\"phoneNum\":\"818-207-4980\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"32232\",\"fullName\":\"Gudmestad,
       Terje  \",\"phoneNum\":\"714-296-4999\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"33300\",\"fullName\":\"Courson,
@@ -6174,7 +6177,8 @@ interactions:
       William  \",\"phoneNum\":\"919-417-0181\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"79649\",\"fullName\":\"Mootien
       Pillay, Harekeshava  \",\"phoneNum\":\"206-527-6740\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"74162\",\"fullName\":\"Howe,
       Wayne  \",\"phoneNum\":\"949-422-5325\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"75469\",\"fullName\":\"Schield,
-      Bradley  \",\"phoneNum\":\"509-336-2098\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"107112\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1349\",\"corrAddrCity\":\"Brentwood\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"2278\",\"lastUpdatedTimestamp\":\"2023-11-30T02:13:46.583Z\",\"cmsData\":[\"{14590337|2023-09-06
+      Bradley  \",\"phoneNum\":\"509-336-2098\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"27113\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1349\",\"corrAddrCity\":\"St.
+      Louis\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"2278\",\"lastUpdatedTimestamp\":\"2023-12-06T10:08:19.816Z\",\"cmsData\":[\"{14590337|2023-09-06
       20:00:00|PROSECUTION|Search information including classification, databases
       and other search related notes|SRFW|4|LM6AIXGJGREENX2},{14590337|2023-09-06
       20:00:00|PROSECUTION|Issue Information including classification, examiner, name,
@@ -6335,7 +6339,7 @@ interactions:
       19:00:00|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|3|I4LPBL2EPXXIFW3},{14590337|2015-01-05
       19:00:00|PROSECUTION|Drawings-only black and white line drawings|DRW|6|I4LPBL3SPXXIFW3},{14590337|2015-01-05
       19:00:00|PROSECUTION|Information Disclosure Statement (IDS) Form (SB08)|IDS|3|I4LPBL1XPXXIFW3}\"],\"appAttrDockNumberFacet\":\"14-1182-US-NP
-      (800-0063)\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"107112\",\"_version_\":1783953526221701120,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160195072A1\",\"patentNumberFacet\":\"11821409\"},{\"corrAddrCountryName\":\"UNITED
+      (800-0063)\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"27113\",\"_version_\":1784527451492188160,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160195072A1\",\"patentNumberFacet\":\"11821409\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14668795\",\"totalPtoDays\":\"1214\",\"assignments\":[{\"reelNumber\":\"35539\",\"frameNumber\":\"768\",\"addressNameText\":\"ROBERT
       C. KOWERT\",\"addressLineOneText\":\"P.O. BOX 398\",\"addressLineTwoText\":\"AUSTIN,
       TX 78767-0398\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"05-01-2015\",\"receivedDate\":\"04-30-2015\",\"recordedDate\":\"04-30-2015\",\"pagesCount\":\"9\",\"converyanceName\":\"ASSIGNMENT
@@ -6347,8 +6351,9 @@ interactions:
       \",\"geoCode\":\"WA\",\"country\":\"(US)\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||Amazon
       Technologies, Inc.||||Seattle|WA|US|ORG|1}\",\"appFilingDate\":\"2015-03-25T00:00:00Z\",\"appExamName\":\"TAYLOR,
       BROOKE JAZMOND\",\"appExamNameFacet\":\"TAYLOR, BROOKE JAZMOND\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"DARIN
-      LEE FRINK\",\"inventorNameFacet\":\"DARIN LEE FRINK\",\"corrAddrGeoRegionCode\":\"TX\",\"appLocation\":\"ELECTRONIC\",\"id\":\"14668795\",\"appGrpArtNumber\":\"2181\",\"appGrpArtNumberFacet\":\"2181\",\"applIdStr\":\"14668795\",\"appl_id_txt\":\"14668795\",\"appSubCls\":\"301000\",\"patentNumber\":\"11822504\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"710\",\"appStatus\":\"Patented
-      Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"Building
+      LEE FRINK\",\"inventorNameFacet\":\"DARIN LEE FRINK\",\"corrAddrGeoRegionCode\":\"TX\",\"appLocation\":\"ELECTRONIC\",\"id\":\"14668795\",\"appGrpArtNumber\":\"2181\",\"appGrpArtNumberFacet\":\"2181\",\"applIdStr\":\"14668795\",\"appl_id_txt\":\"14668795\",\"appSubCls\":\"301000\",\"patentNumber\":\"11822504\",\"LAST_MOD_TS\":\"2023-12-01T05:55:41Z\",\"LAST_INSERT_TIME\":\"2023-12-01T11:25:03Z\",\"appCls\":\"710\",\"appStatus\":\"Publications
+      -- Issue Fee Payment Verified\",\"appStatusFacet\":\"Publications -- Issue Fee
+      Payment Verified\",\"appStatus_txt\":\"Publications -- Issue Fee Payment Verified\",\"corrAddrStreetLineTwo\":\"Building
       2, Suite 300\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"133.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"385\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"133\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"16\",\"applDays\":\"\",\"start\":\"128\"},{\"number\":\"130\",\"ptaOrPteDate\":\"07-11-2023\",\"contentsDescription\":\"Dispatch
@@ -6459,7 +6464,7 @@ interactions:
       Status Set To Undiscounted (Initial Default Setting or Status Change)\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"1\",\"ptaOrPteDate\":\"03-25-2015\",\"contentsDescription\":\"Initial
       Exam Team nn\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"0.5\",\"ptaOrPteDate\":\"03-25-2015\",\"contentsDescription\":\"Filing
       date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"}],\"corrAddrGeoRegionNA\":\"TEXAS\",\"patentTitle\":\"SYMMETRICAL
-      MULTI-PROCESSOR SERIAL LINKS\",\"applDelay\":\"83\",\"cDelay\":\"0\",\"appStatusDate\":\"2023-11-01T00:00:00Z\",\"appAttrDockNumber\":\"5924-99200\",\"inventors\":[{\"nameLineOne\":\"FRINK\",\"nameLineTwo\":\"DARIN
+      MULTI-PROCESSOR SERIAL LINKS\",\"applDelay\":\"83\",\"cDelay\":\"0\",\"appStatusDate\":\"2023-11-30T00:00:00Z\",\"appAttrDockNumber\":\"5924-99200\",\"inventors\":[{\"nameLineOne\":\"FRINK\",\"nameLineTwo\":\"DARIN
       LEE\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"LAKE
       TAPPS, \",\"geoCode\":\"WA\",\"country\":\"(US)\",\"rankNo\":\"1\"},{\"nameLineOne\":\"WATSON\",\"nameLineTwo\":\"CHRISTOPHER
       NATHAN\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"SEATTLE,
@@ -6469,7 +6474,8 @@ interactions:
       TAPPS|WA|US|IND|1},{CHRISTOPHER|NATHAN|WATSON||||SEATTLE|WA|US|IND|3},{MICHAEL|JON|MOEN||||OLYMPIA|WA|US|IND|2}\",\"ptoAdjustments\":\"0\",\"corrAddrStreetLineOne\":\"1120
       S. Capital of Texas Hwy\",\"firstInventorFile\":\"Yes\",\"overlapDelay\":\"39\",\"aDelay\":\"951\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"78746\",\"appCustNumber\":\"35690\",\"appClsSubCls\":\"710/301000\",\"appClsSubClsFacet\":\"710/301000\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"385\",\"corrAddrNameLineOne\":\"KOWERT,
       HOOD, MUNYON, RANKIN & GOETZEL, P.C.\",\"firstNamedApplicant\":[\"  Amazon Technologies,
-      Inc.\"],\"firstNamedApplicantFacet\":\"  Amazon Technologies, Inc.\",\"corrAddrCustNo\":\"35690\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1297\",\"corrAddrCity\":\"Austin\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"2873\",\"lastUpdatedTimestamp\":\"2023-11-30T02:13:46.583Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      Inc.\"],\"firstNamedApplicantFacet\":\"  Amazon Technologies, Inc.\",\"corrAddrCustNo\":\"35690\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1297\",\"corrAddrCity\":\"Austin\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"2873\",\"lastUpdatedTimestamp\":\"2023-12-02T05:09:09.560Z\",\"transactions\":[{\"recordDate\":\"2023-11-30
+      00:00:00\",\"code\":\"WFIS\",\"description\":\"Withdrawal Patent Case from Issue\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"CCRDY\",\"description\":\"Application ready for PDX access
       by participating foreign offices\"},{\"recordDate\":\"2023-11-02 00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email
@@ -6588,10 +6594,10 @@ interactions:
       00:00:00\",\"code\":\"WIDS\",\"description\":\"Information Disclosure Statement
       (IDS) Filed\"},{\"recordDate\":\"2015-03-25 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2015-03-25
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"appAttrDockNumberFacet\":\"5924-99200\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"35690\",\"_version_\":1783953290603528192,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"patentNumberFacet\":\"11822504\"},{\"corrAddrCountryName\":\"UNITED
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"appAttrDockNumberFacet\":\"5924-99200\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"35690\",\"_version_\":1784146156210618368,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"patentNumberFacet\":\"11822504\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14680601\",\"totalPtoDays\":\"722\",\"appFilingDate\":\"2015-04-07T00:00:00Z\",\"appExamName\":\"BOYCE,
       ANDRE D\",\"appExamNameFacet\":\"BOYCE, ANDRE D\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Jack
-      L. Marovets\",\"inventorNameFacet\":\"Jack L. Marovets\",\"appEarlyPubDate\":\"2015-07-30T00:00:00Z\",\"corrAddrGeoRegionCode\":\"IA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150215373A1\",\"id\":\"14680601\",\"appGrpArtNumber\":\"3623\",\"appGrpArtNumberFacet\":\"3623\",\"applIdStr\":\"14680601\",\"appl_id_txt\":\"14680601\",\"appSubCls\":\"014730\",\"patentNumber\":\"11824920\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      L. Marovets\",\"inventorNameFacet\":\"Jack L. Marovets\",\"appEarlyPubDate\":\"2015-07-30T00:00:00Z\",\"corrAddrGeoRegionCode\":\"IA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150215373A1\",\"id\":\"14680601\",\"appGrpArtNumber\":\"3623\",\"appGrpArtNumberFacet\":\"3623\",\"applIdStr\":\"14680601\",\"appl_id_txt\":\"14680601\",\"appSubCls\":\"014730\",\"patentNumber\":\"11824920\",\"LAST_MOD_TS\":\"2023-12-05T05:57:07Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -6739,7 +6745,7 @@ interactions:
       (IDS) Filed\"},{\"recordDate\":\"2015-04-07 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2015-04-07 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2015-04-07
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"Suite
       201\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"157.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"61\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"157\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -6893,7 +6899,7 @@ interactions:
       Kyle  \",\"phoneNum\":\"515-218-7888\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"77554\",\"fullName\":\"Munro,
       Alexandria  \",\"phoneNum\":\"515-218-7888\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"13694316\",\"applicationNumberText\":\"14680601\",\"filingDate\":\"11-16-2012\",\"aiaIndicator\":\"N\",\"patentNumberText\":\"\",\"applicationStatus\":\"Abandoned\",\"applicationStatusDescription\":\"This
       application is a Division of\"},{\"claimApplicationNumberText\":\"61629282\",\"applicationNumberText\":\"14680601\",\"filingDate\":\"11-16-2011\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"133690\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"722\",\"corrAddrCity\":\"Clive\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"9665\",\"lastUpdatedTimestamp\":\"2023-11-30T02:12:06.950Z\",\"cmsData\":[\"{14680601|2022-10-18
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"133690\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"722\",\"corrAddrCity\":\"Clive\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"9665\",\"lastUpdatedTimestamp\":\"2023-12-06T10:09:27.676Z\",\"cmsData\":[\"{14680601|2022-10-18
       20:00:00|PROSECUTION|Fee Worksheet (SB06)|WFEE|1|L9FO0SUYXBLUEX4},{14680601|2022-10-17
       14:50:35|PROSECUTION|Applicant Arguments/Remarks Made in an Amendment|REM|8|L9DG5GYAGREENX5},{14680601|2022-10-17
       14:50:35|PROSECUTION|Amendment/Request for Reconsideration-After Non-Final Rejection|A...|1|L9DG5GY8GREENX5},{14680601|2022-10-17
@@ -7033,7 +7039,7 @@ interactions:
       20:00:00|PROSECUTION|Drawings-only black and white line drawings|DRW|1|I87QKEIBPXXIFW3},{14680601|2015-04-06
       20:00:00|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|I87QKEFAPXXIFW3},{14680601|2015-04-06
       20:00:00|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|3|I87QKEFYPXXIFW3}\"],\"appAttrDockNumberFacet\":\"Jack
-      Marovets-P0004\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"133690\",\"_version_\":1783953245362716672,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150215373A1\",\"patentNumberFacet\":\"11824920\"},{\"corrAddrCountryName\":\"UNITED
+      Marovets-P0004\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"133690\",\"_version_\":1784526886490079232,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150215373A1\",\"patentNumberFacet\":\"11824920\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14738592\",\"totalPtoDays\":\"0\",\"assignments\":[{\"reelNumber\":\"35831\",\"frameNumber\":\"224\",\"addressNameText\":\"HAHN
       LOESER & PARKS, LLP\",\"addressLineOneText\":\"ONE GOJO PLAZA\",\"addressLineTwoText\":\"SUITE
       300\",\"addressLineThreeText\":\"AKRON, OH 44311-1076\",\"addressLineFourText\":\"null\",\"mailDate\":\"06-15-2015\",\"receivedDate\":\"06-12-2015\",\"recordedDate\":\"06-12-2015\",\"pagesCount\":\"2\",\"converyanceName\":\"ASSIGNMENT
@@ -7054,7 +7060,7 @@ interactions:
       \",\"geoCode\":\"OH\",\"country\":\"(US)\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||Evolv,
       LLC||||Hudson|OH|US|ORG|1}\",\"appFilingDate\":\"2015-06-12T00:00:00Z\",\"appExamName\":\"NGUYEN,
       PHUONG T\",\"appExamNameFacet\":\"NGUYEN, PHUONG T\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"John
-      \ BELLINGER\",\"inventorNameFacet\":\"John  BELLINGER\",\"appEarlyPubDate\":\"2015-12-17T00:00:00Z\",\"corrAddrGeoRegionCode\":\"OH\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150359263A1\",\"id\":\"14738592\",\"appGrpArtNumber\":\"3761\",\"appGrpArtNumberFacet\":\"3761\",\"applIdStr\":\"14738592\",\"appl_id_txt\":\"14738592\",\"appSubCls\":\"394000\",\"patentNumber\":\"11825565\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ BELLINGER\",\"inventorNameFacet\":\"John  BELLINGER\",\"appEarlyPubDate\":\"2015-12-17T00:00:00Z\",\"corrAddrGeoRegionCode\":\"OH\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20150359263A1\",\"id\":\"14738592\",\"appGrpArtNumber\":\"3761\",\"appGrpArtNumberFacet\":\"3761\",\"applIdStr\":\"14738592\",\"appl_id_txt\":\"14738592\",\"appSubCls\":\"394000\",\"patentNumber\":\"11825565\",\"LAST_MOD_TS\":\"2023-12-05T05:21:04Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -7193,7 +7199,7 @@ interactions:
       00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW Scan & PACR Auto Security
       Review\"},{\"recordDate\":\"2015-06-12 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2015-06-12
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"392\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"392\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"158.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"85\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"158\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"157\",\"ptaOrPteDate\":\"10-26-2023\",\"contentsDescription\":\"Email
@@ -7326,7 +7332,7 @@ interactions:
       LLC\",\"firstNamedApplicant\":[\"  Evolv, LLC\"],\"firstNamedApplicantFacet\":\"
       \ Evolv, LLC\",\"attrnyAddr\":[{\"applicationId\":null,\"registrationNo\":\"48140\",\"fullName\":\"Firca,
       Donald  Jr.\",\"phoneNum\":\"440-290-4507\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"62012312\",\"applicationNumberText\":\"14738592\",\"filingDate\":\"06-14-2014\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"135780\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"476\",\"corrAddrCity\":\"Mentor\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"5410\",\"lastUpdatedTimestamp\":\"2023-11-30T02:08:45.940Z\",\"cmsData\":[\"{14738592|2023-08-23
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"135780\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"476\",\"corrAddrCity\":\"Mentor\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"5410\",\"lastUpdatedTimestamp\":\"2023-12-06T10:16:42.915Z\",\"cmsData\":[\"{14738592|2023-08-23
       20:00:00|PROSECUTION|Communication - Re:  Power of Attorney (PTOL-308)|N570|1|LLNL4MFOXBLUEX5},{14738592|2023-08-23
       20:00:00|PROSECUTION|Communication - Re:  Power of Attorney (PTOL-308)|N570|1|LLNL4MFVXBLUEX5},{14738592|2023-08-18
       14:01:35|PROSECUTION|Power of Attorney|PA..|2|LLH4XT96XBLUEX5},{14738592|2023-08-18
@@ -7464,7 +7470,7 @@ interactions:
       Filing System(EFS) Acknowledgment Receipt|N417|3|IAU7AFBBPXXIFW3},{14738592|2015-06-11
       20:00:00|PROSECUTION|Abstract|ABST|1|IAU7AFAPPXXIFW3},{14738592|2015-06-11 20:00:00|PROSECUTION|Oath
       or Declaration filed|OATH|1|IAU7AFA1PXXIFW3},{14738592|2015-06-11 20:00:00|PROSECUTION|Drawings-only
-      black and white line drawings|DRW|11|IAU7AFAXPXXIFW3}\"],\"appAttrDockNumberFacet\":\"EVO-22240\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"135780\",\"_version_\":1783953100239798272,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150359263A1\",\"patentNumberFacet\":\"11825565\"},{\"corrAddrCountryName\":\"UNITED
+      black and white line drawings|DRW|11|IAU7AFAXPXXIFW3}\"],\"appAttrDockNumberFacet\":\"EVO-22240\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"135780\",\"_version_\":1784528075594137600,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20150359263A1\",\"patentNumberFacet\":\"11825565\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14781777\",\"totalPtoDays\":\"0\",\"assignments\":[{\"reelNumber\":\"36864\",\"frameNumber\":\"912\",\"addressNameText\":\"NIXON
       & VANDERHYE PC\",\"addressLineOneText\":\"901 NORTH GLEBE ROAD\",\"addressLineTwoText\":\"11TH
       FLOOR\",\"addressLineThreeText\":\"ARLINGTON, VA 22203\",\"addressLineFourText\":\"null\",\"mailDate\":\"10-26-2015\",\"receivedDate\":\"10-23-2015\",\"recordedDate\":\"10-23-2015\",\"pagesCount\":\"4\",\"converyanceName\":\"ASSIGNMENT
@@ -7477,7 +7483,7 @@ interactions:
       Minami-ku\",\"streetTwo\":\"\",\"city\":\"Hiroshima-shi, Hiroshima-ken, \",\"geoCode\":\"\",\"country\":\"(JP)\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||TODA
       KOGYO CORP.||1-23 Kyobashi-cho, Minami-ku||Hiroshima-shi, Hiroshima-ken||JP|ORG|1}\",\"appFilingDate\":\"2015-10-01T00:00:00Z\",\"appExamName\":\"EDMONDSON,
       LYNNE RENEE\",\"appExamNameFacet\":\"EDMONDSON, LYNNE RENEE\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Yasuhiko
-      \ FUJII\",\"inventorNameFacet\":\"Yasuhiko  FUJII\",\"appEarlyPubDate\":\"2016-02-11T00:00:00Z\",\"corrAddrGeoRegionCode\":\"VA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160039128A1\",\"id\":\"14781777\",\"appGrpArtNumber\":\"1734\",\"appGrpArtNumberFacet\":\"1734\",\"applIdStr\":\"14781777\",\"appl_id_txt\":\"14781777\",\"appSubCls\":\"062540\",\"patentNumber\":\"11820055\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ FUJII\",\"inventorNameFacet\":\"Yasuhiko  FUJII\",\"appEarlyPubDate\":\"2016-02-11T00:00:00Z\",\"corrAddrGeoRegionCode\":\"VA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160039128A1\",\"id\":\"14781777\",\"appGrpArtNumber\":\"1734\",\"appGrpArtNumberFacet\":\"1734\",\"applIdStr\":\"14781777\",\"appl_id_txt\":\"14781777\",\"appSubCls\":\"062540\",\"patentNumber\":\"11820055\",\"LAST_MOD_TS\":\"2023-12-05T05:21:04Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -7623,7 +7629,7 @@ interactions:
       (IDS) Filed\"},{\"recordDate\":\"2015-10-01 00:00:00\",\"code\":\"L194\",\"description\":\"Cleared
       by OIPE CSR\"},{\"recordDate\":\"2015-10-01 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2015-10-01
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"252\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"252\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"164.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"164.4\"},{\"number\":\"164.4\",\"ptaOrPteDate\":\"10-05-2015\",\"contentsDescription\":\"Commencement
       Date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"164\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -7804,7 +7810,7 @@ interactions:
       Roland  Jr\",\"phoneNum\":\"703-521-2297\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"63422\",\"fullName\":\"Mereness,
       Jeremy  \",\"phoneNum\":\"703-521-2297\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"52948\",\"fullName\":\"Goehring,
       Jeffrey  \",\"phoneNum\":\"703-816-4404\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"PCT/JP2014/059641\",\"applicationNumberText\":\"14781777\",\"filingDate\":\"04-01-2014\",\"aiaIndicator\":\"\",\"patentNumberText\":\"11820055\",\"applicationStatus\":\"Published\",\"applicationStatusDescription\":\"This
-      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"23117\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"91\",\"corrAddrCity\":\"ARLINGTON\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"9294\",\"lastUpdatedTimestamp\":\"2023-11-30T01:11:56.505Z\",\"cmsData\":[\"{14781777|2023-08-28
+      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"23117\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"91\",\"corrAddrCity\":\"ARLINGTON\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"9294\",\"lastUpdatedTimestamp\":\"2023-12-06T07:03:42.636Z\",\"cmsData\":[\"{14781777|2023-08-28
       20:00:00|PROSECUTION|Notice of Allowance and Fees Due (PTOL-85)|NOA|5|LLQIF939XBLUEX0},{14781777|2023-08-28
       20:00:00|PROSECUTION|Issue Information including classification, examiner, name,
       claim, renumbering, etc.|IIFW|3|LLQIF93GXBLUEX0},{14781777|2023-08-28 20:00:00|PROSECUTION|List
@@ -8047,13 +8053,13 @@ interactions:
       submitted with 371 (National Stage) Applications|371P|21|IF8MVMGEPXXIFW3},{14781777|2015-09-30
       20:00:00|PROSECUTION|Claims|CLM|2|IF8MVMHNPXXIFW3},{14781777|2015-09-30 20:00:00|PROSECUTION|Application
       Data Sheet|ADS|7|IF8MVMI9PXXIFW3},{14781777|2015-09-30 20:00:00|PROSECUTION|Transmittal
-      of New Application|TRNA|3|IF8MVMG7PXXIFW3},{14781777|2015-09-30 20:00:00|PROSECUTION|Specification|SPEC|46|IF8MVMGYPXXIFW3}\"],\"appAttrDockNumberFacet\":\"8716-0003\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"23117\",\"_version_\":1783949847055826944,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160039128A1\",\"patentNumberFacet\":\"11820055\"},{\"corrAddrCountryName\":\"UNITED
+      of New Application|TRNA|3|IF8MVMG7PXXIFW3},{14781777|2015-09-30 20:00:00|PROSECUTION|Specification|SPEC|46|IF8MVMGYPXXIFW3}\"],\"appAttrDockNumberFacet\":\"8716-0003\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"23117\",\"_version_\":1784515891537379328,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160039128A1\",\"patentNumberFacet\":\"11820055\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14854468\",\"totalPtoDays\":\"737\",\"applicants\":[{\"nameLineOne\":\"Bridgestone
       Corporation\",\"nameLineTwo\":\" \",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Tokyo,
       \",\"geoCode\":\"\",\"country\":\"(JP)\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||Bridgestone
       Corporation||||Tokyo||JP|ORG|1}\",\"appFilingDate\":\"2015-09-15T00:00:00Z\",\"appExamName\":\"MITCHELL,
       JOEL F\",\"appExamNameFacet\":\"MITCHELL, JOEL F\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Jody
-      \ Scott\",\"inventorNameFacet\":\"Jody  Scott\",\"appEarlyPubDate\":\"2016-03-24T00:00:00Z\",\"corrAddrGeoRegionCode\":\"OH\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160081265A1\",\"id\":\"14854468\",\"appGrpArtNumber\":\"3671\",\"appGrpArtNumberFacet\":\"3671\",\"applIdStr\":\"14854468\",\"appl_id_txt\":\"14854468\",\"appSubCls\":\"001000\",\"patentNumber\":\"11818983\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ Scott\",\"inventorNameFacet\":\"Jody  Scott\",\"appEarlyPubDate\":\"2016-03-24T00:00:00Z\",\"corrAddrGeoRegionCode\":\"OH\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160081265A1\",\"id\":\"14854468\",\"appGrpArtNumber\":\"3671\",\"appGrpArtNumberFacet\":\"3671\",\"applIdStr\":\"14854468\",\"appl_id_txt\":\"14854468\",\"appSubCls\":\"001000\",\"patentNumber\":\"11818983\",\"LAST_MOD_TS\":\"2023-12-05T05:57:07Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -8206,7 +8212,7 @@ interactions:
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2015-09-16 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2015-09-15 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2015-09-15
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"171\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"171\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"164.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"136\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"164\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"162\",\"ptaOrPteDate\":\"10-12-2023\",\"contentsDescription\":\"Dispatch
@@ -8386,7 +8392,7 @@ interactions:
       Andrew  \",\"phoneNum\":\"901-543-5936\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"78675\",\"fullName\":\"Corbett,
       Palmer  \",\"phoneNum\":\"312-832-4301\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"47669\",\"fullName\":\"Hudak,
       Daniel  Jr\",\"phoneNum\":\"330-535-2220\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"62053180\",\"applicationNumberText\":\"14854468\",\"filingDate\":\"09-21-2014\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"48985\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"875\",\"corrAddrCity\":\"AKRON\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"6464\",\"lastUpdatedTimestamp\":\"2023-11-30T01:08:55.695Z\",\"cmsData\":[\"{14854468|2023-08-08
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"48985\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"875\",\"corrAddrCity\":\"AKRON\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"6464\",\"lastUpdatedTimestamp\":\"2023-12-06T06:50:47.978Z\",\"cmsData\":[\"{14854468|2023-08-08
       20:00:00|PROSECUTION|Notice of Allowance and Fees Due (PTOL-85)|NOA|7|LL0Y1KF1GREENX0},{14854468|2023-08-08
       20:00:00|PROSECUTION|Issue Information including classification, examiner, name,
       claim, renumbering, etc.|IIFW|3|LL0Y1KF5GREENX0},{14854468|2023-08-08 20:00:00|PROSECUTION|Search
@@ -8577,7 +8583,7 @@ interactions:
       20:00:00|PROSECUTION|Claims|CLM|4|IELPG3WCPXXIFW3},{14854468|2015-09-14 20:00:00|PROSECUTION|Abstract|ABST|1|IELPG3WHPXXIFW3},{14854468|2015-09-14
       20:00:00|PROSECUTION|Foreign Reference|FOR|13|IELPG3VPPXXIFW3},{14854468|2015-09-14
       20:00:00|PROSECUTION|Specification|SPEC|10|IELPG3W6PXXIFW3},{14854468|2015-09-14
-      20:00:00|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|3|IELPG3W0PXXIFW3}\"],\"appAttrDockNumberFacet\":\"P14194US2A\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"48985\",\"_version_\":1783949538957983744,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160081265A1\",\"patentNumberFacet\":\"11818983\"},{\"corrAddrCountryName\":\"UNITED
+      20:00:00|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|3|IELPG3W0PXXIFW3}\"],\"appAttrDockNumberFacet\":\"P14194US2A\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"48985\",\"_version_\":1784515218432327680,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160081265A1\",\"patentNumberFacet\":\"11818983\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14903554\",\"totalPtoDays\":\"1344\",\"assignments\":[{\"reelNumber\":\"37442\",\"frameNumber\":\"153\",\"addressNameText\":\"NORTON
       ROSE FULBRIGHT US LLP\",\"addressLineOneText\":\"98 SAN JACINTO BLVD.\",\"addressLineTwoText\":\"SUITE
       1100\",\"addressLineThreeText\":\"AUSTIN, TX 78701\",\"addressLineFourText\":\"null\",\"mailDate\":\"01-11-2016\",\"receivedDate\":\"01-08-2016\",\"recordedDate\":\"01-08-2016\",\"pagesCount\":\"6\",\"converyanceName\":\"ASSIGNMENT
@@ -8595,7 +8601,7 @@ interactions:
       de Paris\",\"streetTwo\":\"\",\"city\":\"Charenton-le-pont, \",\"geoCode\":\"\",\"country\":\"(FR)\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||ESSILOR
       INTERNATIONAL||147 rue de Paris||Charenton-le-pont||FR|ORG|1}\",\"appFilingDate\":\"2016-01-07T00:00:00Z\",\"appExamName\":\"MILLER,
       MICHAEL G\",\"appExamNameFacet\":\"MILLER, MICHAEL G\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Lo\xEFc
-      \ QUERE\",\"inventorNameFacet\":\"Lo\xEFc  QUERE\",\"appEarlyPubDate\":\"2016-06-09T00:00:00Z\",\"corrAddrGeoRegionCode\":\"TX\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160161761A1\",\"id\":\"14903554\",\"appGrpArtNumber\":\"1712\",\"appGrpArtNumberFacet\":\"1712\",\"applIdStr\":\"14903554\",\"appl_id_txt\":\"14903554\",\"appSubCls\":\"162000\",\"patentNumber\":\"11822152\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ QUERE\",\"inventorNameFacet\":\"Lo\xEFc  QUERE\",\"appEarlyPubDate\":\"2016-06-09T00:00:00Z\",\"corrAddrGeoRegionCode\":\"TX\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160161761A1\",\"id\":\"14903554\",\"appGrpArtNumber\":\"1712\",\"appGrpArtNumberFacet\":\"1712\",\"applIdStr\":\"14903554\",\"appl_id_txt\":\"14903554\",\"appSubCls\":\"162000\",\"patentNumber\":\"11822152\",\"LAST_MOD_TS\":\"2023-12-05T05:21:04Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -8757,7 +8763,7 @@ interactions:
       00:00:00\",\"code\":\"L194\",\"description\":\"Cleared by OIPE CSR\"},{\"recordDate\":\"2016-01-07
       00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity Status Set To Undiscounted
       (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2016-01-07 00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial
-      Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"427\",\"appStatus\":\"Patented
+      Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"427\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"175.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"377\",\"applDays\":\"\",\"start\":\"175.4\"},{\"number\":\"175.4\",\"ptaOrPteDate\":\"01-08-2016\",\"contentsDescription\":\"Commencement
       Date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"175\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -8980,7 +8986,7 @@ interactions:
       Jason  \",\"phoneNum\":\"650-687-8800\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"77596\",\"fullName\":\"Woo,
       Noble  \",\"phoneNum\":\"617-510-8677\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"80603\",\"fullName\":\"Neve,
       Isaiah  \",\"phoneNum\":\"512-536-3004\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"PCT/FR2014/051754\",\"applicationNumberText\":\"14903554\",\"filingDate\":\"07-08-2014\",\"aiaIndicator\":\"\",\"patentNumberText\":\"11822152\",\"applicationStatus\":\"Published\",\"applicationStatusDescription\":\"This
-      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"126623\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1414\",\"corrAddrCity\":\"Austin\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"7294\",\"lastUpdatedTimestamp\":\"2023-11-30T01:25:09.167Z\",\"cmsData\":[\"{14903554|2023-07-05
+      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"126623\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1414\",\"corrAddrCity\":\"Austin\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"7294\",\"lastUpdatedTimestamp\":\"2023-12-06T07:03:42.636Z\",\"cmsData\":[\"{14903554|2023-07-05
       20:00:00|PROSECUTION|Communication - Re:  Power of Attorney (PTOL-308)|N570|1|LJQ7ETUBGREENX2},{14903554|2023-06-28
       14:42:11|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|LJGAXKNWGREENX1},{14903554|2023-06-28
       14:42:11|PROSECUTION|Issue Fee Payment (PTO-85B)|IFEE|1|LJGAXKNVGREENX1},{14903554|2023-06-28
@@ -9156,7 +9162,7 @@ interactions:
       19:00:00|PROSECUTION|Application Data Sheet|ADS|9|IJ4UF7L3PXXIFW3},{14903554|2016-01-06
       19:00:00|PROSECUTION|Documents submitted with 371 (National Stage) Applications|371P|5|IJ4UF7N2PXXIFW3},{14903554|2016-01-06
       19:00:00|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|IJ4UF7NOPXXIFW3},{14903554|2016-01-06
-      19:00:00|PROSECUTION|WIPO Publication - Non-English version|P.PAMPHLET|53|IJWYYK76PXXIFW4}\"],\"appAttrDockNumberFacet\":\"ESSS.P0002US/1000209270\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"126623\",\"_version_\":1783950237804527617,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160161761A1\",\"patentNumberFacet\":\"11822152\"},{\"corrAddrCountryName\":\"UNITED
+      19:00:00|PROSECUTION|WIPO Publication - Non-English version|P.PAMPHLET|53|IJWYYK76PXXIFW4}\"],\"appAttrDockNumberFacet\":\"ESSS.P0002US/1000209270\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"126623\",\"_version_\":1784516892729278464,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160161761A1\",\"patentNumberFacet\":\"11822152\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14917560\",\"totalPtoDays\":\"0\",\"assignments\":[{\"reelNumber\":\"37925\",\"frameNumber\":\"967\",\"addressNameText\":\"ANNIE
       AYMOND-NORTON ROSE FULBRIGHT USLLP\",\"addressLineOneText\":\"1301 MCKINNEY
       STREET\",\"addressLineTwoText\":\"HOUSTON, TX 77010\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"03-09-2016\",\"receivedDate\":\"03-08-2016\",\"recordedDate\":\"03-08-2016\",\"pagesCount\":\"4\",\"converyanceName\":\"ASSIGNMENT
@@ -9167,7 +9173,7 @@ interactions:
       Elm Way\",\"streetTwo\":\"\",\"city\":\"Houston, \",\"geoCode\":\"TX\",\"country\":\"(US)\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||FIGENE,
       LLC||17006 Evergreen Elm Way||Houston|TX|US|ORG|1}\",\"appFilingDate\":\"2016-03-08T00:00:00Z\",\"appExamName\":\"LEONARD,
       ARTHUR S\",\"appExamNameFacet\":\"LEONARD, ARTHUR S\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Pete
-      \ O'Heeron\",\"inventorNameFacet\":\"Pete  O'Heeron\",\"appEarlyPubDate\":\"2016-08-04T00:00:00Z\",\"corrAddrGeoRegionCode\":\"TX\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160220699A1\",\"id\":\"14917560\",\"appGrpArtNumber\":\"1631\",\"appGrpArtNumberFacet\":\"1631\",\"applIdStr\":\"14917560\",\"appl_id_txt\":\"14917560\",\"appSubCls\":\"093200\",\"patentNumber\":\"11819555\",\"LAST_MOD_TS\":\"2023-11-29T21:20:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ O'Heeron\",\"inventorNameFacet\":\"Pete  O'Heeron\",\"appEarlyPubDate\":\"2016-08-04T00:00:00Z\",\"corrAddrGeoRegionCode\":\"TX\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160220699A1\",\"id\":\"14917560\",\"appGrpArtNumber\":\"1631\",\"appGrpArtNumberFacet\":\"1631\",\"applIdStr\":\"14917560\",\"appl_id_txt\":\"14917560\",\"appSubCls\":\"093200\",\"patentNumber\":\"11819555\",\"LAST_MOD_TS\":\"2023-12-05T05:21:04Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -9340,7 +9346,7 @@ interactions:
       (IDS) Filed\"},{\"recordDate\":\"2016-03-08 00:00:00\",\"code\":\"L194\",\"description\":\"Cleared
       by OIPE CSR\"},{\"recordDate\":\"2016-03-08 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2016-03-08
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-30T01:15:03Z\",\"appCls\":\"424\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"424\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"SUITE
       5100\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"185.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"185.4\"},{\"number\":\"185.4\",\"ptaOrPteDate\":\"03-09-2016\",\"contentsDescription\":\"Commencement
@@ -9538,7 +9544,7 @@ interactions:
       Tamsen  \",\"phoneNum\":\"512-474-5201\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"80603\",\"fullName\":\"Neve,
       Isaiah  \",\"phoneNum\":\"512-536-3004\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"PCT/US14/54804\",\"applicationNumberText\":\"14917560\",\"filingDate\":\"09-09-2014\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Published\",\"applicationStatusDescription\":\"This
       application is National Stage Entry of\"},{\"claimApplicationNumberText\":\"61875509\",\"applicationNumberText\":\"14917560\",\"filingDate\":\"09-09-2013\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"26271\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"86\",\"corrAddrCity\":\"HOUSTON\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"8878\",\"lastUpdatedTimestamp\":\"2023-11-30T17:56:01.852Z\",\"cmsData\":[\"{14917560|2023-08-14
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"26271\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"86\",\"corrAddrCity\":\"HOUSTON\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"8878\",\"lastUpdatedTimestamp\":\"2023-12-06T06:41:26.007Z\",\"cmsData\":[\"{14917560|2023-08-14
       20:00:00|PROSECUTION|List of References cited by applicant and considered by
       examiner|1449|1|LL6J4EBUGREENX0},{14917560|2023-08-14 20:00:00|PROSECUTION|Email
       Correspondence|EMAIL|6|LL6J4EB2GREENX0},{14917560|2023-08-14 20:00:00|PROSECUTION|Examiner
@@ -9815,7 +9821,7 @@ interactions:
       19:00:00|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|ILK5D3AERXEAPX0},{14917560|2016-03-07
       19:00:00|PROSECUTION|Specification|SPEC|1|ILK5D3ABRXEAPX0},{14917560|2016-03-07
       19:00:00|PROSECUTION|Claims|CLM|3|ILNTSRQMRXEAPX0},{14917560|2016-03-07 19:00:00|PROSECUTION|Abstract|ABST|1|ILNTSG11RXEAPX4}\"],\"appAttrDockNumberFacet\":\"AMTK.P0006US
-      - 1000318476\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"26271\",\"_version_\":1784012905370353665,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160220699A1\",\"patentNumberFacet\":\"11819555\"},{\"corrAddrCountryName\":\"UNITED
+      - 1000318476\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"26271\",\"_version_\":1784514196104282112,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160220699A1\",\"patentNumberFacet\":\"11819555\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14940914\",\"totalPtoDays\":\"0\",\"assignments\":[{\"reelNumber\":\"37043\",\"frameNumber\":\"352\",\"addressNameText\":\"JASON
       H. FOSTER\",\"addressLineOneText\":\"7632 SLATE RIDGE BLVD.\",\"addressLineTwoText\":\"REYNOLDSBURG,
       OH 43068\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"11-17-2015\",\"receivedDate\":\"11-16-2015\",\"recordedDate\":\"11-16-2015\",\"pagesCount\":\"3\",\"converyanceName\":\"ASSIGNMENT
@@ -9826,7 +9832,7 @@ interactions:
       \",\"geoCode\":\"OH\",\"country\":\"()\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||Columbus
       Industries, Inc.||||Ashville|OH||ORG|1}\",\"appFilingDate\":\"2015-11-13T00:00:00Z\",\"appExamName\":\"BREWSTER,
       HAYDEN R\",\"appExamNameFacet\":\"BREWSTER, HAYDEN R\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Chrystal
-      \ Gillilan\",\"inventorNameFacet\":\"Chrystal  Gillilan\",\"appEarlyPubDate\":\"2016-05-19T00:00:00Z\",\"corrAddrGeoRegionCode\":\"OH\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160136560A1\",\"id\":\"14940914\",\"appGrpArtNumber\":\"RD00\",\"appGrpArtNumberFacet\":\"RD00\",\"applIdStr\":\"14940914\",\"appl_id_txt\":\"14940914\",\"appSubCls\":\"486000\",\"patentNumber\":\"11819792\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ Gillilan\",\"inventorNameFacet\":\"Chrystal  Gillilan\",\"appEarlyPubDate\":\"2016-05-19T00:00:00Z\",\"corrAddrGeoRegionCode\":\"OH\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160136560A1\",\"id\":\"14940914\",\"appGrpArtNumber\":\"RD00\",\"appGrpArtNumberFacet\":\"RD00\",\"applIdStr\":\"14940914\",\"appl_id_txt\":\"14940914\",\"appSubCls\":\"486000\",\"patentNumber\":\"11819792\",\"LAST_MOD_TS\":\"2023-12-05T05:57:07Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -9956,7 +9962,7 @@ interactions:
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2015-11-13 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2015-11-13 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2015-11-13
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"055\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"055\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"153.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"153\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"151\",\"ptaOrPteDate\":\"10-24-2023\",\"contentsDescription\":\"Dispatch
@@ -10089,7 +10095,7 @@ interactions:
       Frank  III\",\"phoneNum\":\"614-575-2100\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"29692\",\"fullName\":\"Pollick,
       Philip  \",\"phoneNum\":\"614-562-4280\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"39981\",\"fullName\":\"Foster,
       Jason  \",\"phoneNum\":\"614-575-2100\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"62079870\",\"applicationNumberText\":\"14940914\",\"filingDate\":\"11-14-2014\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"2555\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"206\",\"corrAddrCity\":\"REYNOLDSBURG\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"7077\",\"lastUpdatedTimestamp\":\"2023-11-30T01:08:55.695Z\",\"cmsData\":[\"{14940914|2023-08-17
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"2555\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"206\",\"corrAddrCity\":\"REYNOLDSBURG\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"7077\",\"lastUpdatedTimestamp\":\"2023-12-06T06:47:12.317Z\",\"cmsData\":[\"{14940914|2023-08-17
       07:55:04|PROSECUTION|Issue Fee Payment (PTO-85B)|IFEE|1|LLFCELT3XBLUEX0},{14940914|2023-08-17
       07:55:04|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|LLFCELTAXBLUEX0},{14940914|2023-08-17
       07:55:04|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|2|LLFCELTHXBLUEX0},{14940914|2023-07-25
@@ -10233,7 +10239,7 @@ interactions:
       19:00:00|PROSECUTION|Power of Attorney|PA..|2|IGY5ERXYPXXIFW3},{14940914|2015-11-12
       19:00:00|PROSECUTION|Application Data Sheet|ADS|7|IGY5ERZ0PXXIFW3},{14940914|2015-11-12
       19:00:00|PROSECUTION|Claims|CLM|4|IGY5ES0BPXXIFW3},{14940914|2015-11-12 19:00:00|PROSECUTION|Specification|SPEC|16|IGY5ES03PXXIFW3}\"],\"appAttrDockNumberFacet\":\"COLIK
-      914\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"2555\",\"_version_\":1783950132837875712,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160136560A1\",\"patentNumberFacet\":\"11819792\"},{\"corrAddrCountryName\":\"UNITED
+      914\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"2555\",\"_version_\":1784514101652750336,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160136560A1\",\"patentNumberFacet\":\"11819792\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14941234\",\"totalPtoDays\":\"747\",\"assignments\":[{\"reelNumber\":\"38767\",\"frameNumber\":\"935\",\"addressNameText\":\"LOCKE
       LORD LLP\",\"addressLineOneText\":\"P.O. BOX 55874\",\"addressLineTwoText\":\"BOSTON,
       MA 02205\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"06-02-2016\",\"receivedDate\":\"06-01-2016\",\"recordedDate\":\"06-01-2016\",\"pagesCount\":\"10\",\"converyanceName\":\"ASSIGNMENT
@@ -10249,9 +10255,9 @@ interactions:
       Services Automobile Association\",\"nameLineTwo\":\" \",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"San
       Antonio, \",\"geoCode\":\"TX\",\"country\":\"()\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||United
       Services Automobile Association||||San Antonio|TX||ORG|1}\",\"appFilingDate\":\"2015-11-13T00:00:00Z\",\"appExamName\":\"TORRICO-LOPEZ,
-      ALAN\",\"appExamNameFacet\":\"TORRICO-LOPEZ, ALAN\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Bharat
-      \ Prasad\",\"inventorNameFacet\":\"Bharat  Prasad\",\"corrAddrGeoRegionCode\":\"MA\",\"appLocation\":\"ELECTRONIC\",\"id\":\"14941234\",\"appGrpArtNumber\":\"3683\",\"appGrpArtNumberFacet\":\"3683\",\"applIdStr\":\"14941234\",\"appl_id_txt\":\"14941234\",\"appSubCls\":\"007190\",\"patentNumber\":\"11823136\",\"LAST_MOD_TS\":\"2023-11-29T05:20:39Z\",\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
-      Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"196.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
+      ALAN\",\"appExamNameFacet\":\"TORRICO-LOPEZ, ALAN\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"corrAddrGeoRegionCode\":\"MA\",\"appLocation\":\"ELECTRONIC\",\"id\":\"14941234\",\"appGrpArtNumber\":\"3683\",\"appGrpArtNumberFacet\":\"3683\",\"applIdStr\":\"14941234\",\"appl_id_txt\":\"14941234\",\"appSubCls\":\"007190\",\"patentNumber\":\"11823136\",\"LAST_MOD_TS\":\"2023-12-01T21:20:39Z\",\"LAST_INSERT_TIME\":\"2023-12-02T06:10:03Z\",\"appCls\":\"705\",\"appStatus\":\"Publications
+      -- Issue Fee Payment Verified\",\"appStatusFacet\":\"Publications -- Issue Fee
+      Payment Verified\",\"appStatus_txt\":\"Publications -- Issue Fee Payment Verified\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"196.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"283\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"196\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
       Issue Date Used in PTA Calculation\",\"ptoDays\":\"4\",\"applDays\":\"\",\"start\":\"191\"},{\"number\":\"193\",\"ptaOrPteDate\":\"08-02-2023\",\"contentsDescription\":\"Dispatch
       to FDC\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"192\",\"ptaOrPteDate\":\"08-02-2023\",\"contentsDescription\":\"Application
@@ -10425,26 +10431,13 @@ interactions:
       Status Set To Undiscounted (Initial Default Setting or Status Change)\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"1\",\"ptaOrPteDate\":\"11-13-2015\",\"contentsDescription\":\"Initial
       Exam Team nn\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"},{\"number\":\"0.5\",\"ptaOrPteDate\":\"11-13-2015\",\"contentsDescription\":\"Filing
       date\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0\"}],\"corrAddrGeoRegionNA\":\"MASQAT\",\"patentTitle\":\"SYSTEM,
-      METHOD AND APPARATUS FOR WEARABLE COMPUTING\",\"applDelay\":\"139\",\"cDelay\":\"0\",\"appStatusDate\":\"2023-11-01T00:00:00Z\",\"appAttrDockNumber\":\"US-1074.01|1482277.313US2\",\"inventors\":[{\"nameLineOne\":\"Prasad\",\"nameLineTwo\":\"Bharat
-      \",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"San Antonio,
-      \",\"geoCode\":\"TX\",\"country\":\"(US)\",\"rankNo\":\"1\"},{\"nameLineOne\":\"Hartman\",\"nameLineTwo\":\"Wayne
-      M.\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"San Antonio,
-      \",\"geoCode\":\"TX\",\"country\":\"(US)\",\"rankNo\":\"2\"},{\"nameLineOne\":\"Barlow\",\"nameLineTwo\":\"Jonathan
-      W.\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"D'hanis,
-      \",\"geoCode\":\"TX\",\"country\":\"(US)\",\"rankNo\":\"3\"},{\"nameLineOne\":\"Billman\",\"nameLineTwo\":\"Bradly
-      J.\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Celina,
-      \",\"geoCode\":\"TX\",\"country\":\"(US)\",\"rankNo\":\"4\"},{\"nameLineOne\":\"Oakes\",\"nameLineTwo\":\"Charles
-      L.\",\"suffix\":\"III\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Boerne,
-      \",\"geoCode\":\"TX\",\"country\":\"(US)\",\"rankNo\":\"5\"},{\"nameLineOne\":\"Maldonado\",\"nameLineTwo\":\"Joshua
-      D.\",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"San Antonio,
-      \",\"geoCode\":\"TX\",\"country\":\"(US)\",\"rankNo\":\"6\"}],\"inventorsFacet\":\"{Bharat||Prasad||||San
-      Antonio|TX|US|IND|1},{Wayne|M.|Hartman||||San Antonio|TX|US|IND|2},{Jonathan|W.|Barlow||||D'hanis|TX|US|IND|3},{Bradly|J.|Billman||||Celina|TX|US|IND|4},{Charles|L.|Oakes|III|||Boerne|TX|US|IND|5},{Joshua|D.|Maldonado||||San
-      Antonio|TX|US|IND|6}\",\"ptoAdjustments\":\"0\",\"corrAddrStreetLineOne\":\"P.O.
+      METHOD AND APPARATUS FOR WEARABLE COMPUTING\",\"applDelay\":\"139\",\"cDelay\":\"0\",\"appStatusDate\":\"2023-11-30T00:00:00Z\",\"appAttrDockNumber\":\"US-1074.01|1482277.313US2\",\"ptoAdjustments\":\"0\",\"corrAddrStreetLineOne\":\"P.O.
       Box 55874\",\"firstInventorFile\":\"Yes\",\"childContinuity\":[{\"claimApplicationNumberText\":\"18222542\",\"applicationNumberText\":\"14941234\",\"filingDate\":\"07-17-2023\",\"aiaIndicator\":\"Y\",\"patentNumberText\":\"\",\"applicationStatus\":\"Pending\",\"applicationStatusDescription\":\"claims
       the benefit of\"}],\"overlapDelay\":\"4\",\"aDelay\":\"607\",\"appType\":\"Utility\",\"appTypeFacet\":\"Utility\",\"corrAddrPostalCode\":\"02205\",\"appCustNumber\":\"103316\",\"appClsSubCls\":\"705/007190\",\"appClsSubClsFacet\":\"705/007190\",\"patentIssueDate\":\"2023-11-21T00:00:00Z\",\"bDelay\":\"283\",\"corrAddrNameLineOne\":\"Locke
       Lord LLP\",\"firstNamedApplicant\":[\"  United Services Automobile Association\"],\"firstNamedApplicantFacet\":\"
       \ United Services Automobile Association\",\"parentContinuity\":[{\"claimApplicationNumberText\":\"62079649\",\"applicationNumberText\":\"14941234\",\"filingDate\":\"11-14-2014\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"103316\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"886\",\"corrAddrCity\":\"Boston\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"1657\",\"lastUpdatedTimestamp\":\"2023-11-30T01:08:55.695Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"103316\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"886\",\"corrAddrCity\":\"Boston\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"1657\",\"lastUpdatedTimestamp\":\"2023-12-02T23:59:01.009Z\",\"transactions\":[{\"recordDate\":\"2023-11-30
+      00:00:00\",\"code\":\"WFIS\",\"description\":\"Withdrawal Patent Case from Issue\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"CCRDY\",\"description\":\"Application ready for PDX access
       by participating foreign offices\"},{\"recordDate\":\"2023-11-02 00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email
@@ -10628,7 +10621,7 @@ interactions:
       Mailed--Application Incomplete--Filing Date Assigned \"},{\"recordDate\":\"2015-11-13
       00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity Status Set To Undiscounted
       (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2015-11-13 00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial
-      Exam Team nn\"}],\"appAttrDockNumberFacet\":\"US-1074.01|1482277.313US2\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"103316\",\"_version_\":1783950117543346176,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"patentNumberFacet\":\"11823136\"},{\"corrAddrCountryName\":\"UNITED
+      Exam Team nn\"}],\"appAttrDockNumberFacet\":\"US-1074.01|1482277.313US2\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"103316\",\"_version_\":1784216611517890560,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"patentNumberFacet\":\"11823136\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"14997447\",\"totalPtoDays\":\"759\",\"assignments\":[{\"reelNumber\":\"37505\",\"frameNumber\":\"321\",\"addressNameText\":\"IAN
       D. CLOUSE\",\"addressLineOneText\":\"11 S. MERIDIAN STREET\",\"addressLineTwoText\":\"INDIANAPOLIS,
       IN 46204\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"01-18-2016\",\"receivedDate\":\"01-15-2016\",\"recordedDate\":\"01-15-2016\",\"pagesCount\":\"8\",\"converyanceName\":\"ASSIGNMENT
@@ -10642,7 +10635,7 @@ interactions:
       Park, \",\"geoCode\":\"CA\",\"country\":\"()\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||SRI
       International||||Menlo Park|CA||ORG|1}\",\"appFilingDate\":\"2016-01-15T00:00:00Z\",\"appExamName\":\"KULP,
       ROBERT LEWIS\",\"appExamNameFacet\":\"KULP, ROBERT LEWIS\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"John
-      J. Byrnes\",\"inventorNameFacet\":\"John J. Byrnes\",\"appEarlyPubDate\":\"2017-03-16T00:00:00Z\",\"corrAddrGeoRegionCode\":\"MN\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20170076219A1\",\"id\":\"14997447\",\"appGrpArtNumber\":\"2124\",\"appGrpArtNumberFacet\":\"2124\",\"applIdStr\":\"14997447\",\"appl_id_txt\":\"14997447\",\"appSubCls\":\"046000\",\"patentNumber\":\"11822609\",\"LAST_MOD_TS\":\"2023-11-29T05:54:32Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      J. Byrnes\",\"inventorNameFacet\":\"John J. Byrnes\",\"appEarlyPubDate\":\"2017-03-16T00:00:00Z\",\"corrAddrGeoRegionCode\":\"MN\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20170076219A1\",\"id\":\"14997447\",\"appGrpArtNumber\":\"2124\",\"appGrpArtNumberFacet\":\"2124\",\"applIdStr\":\"14997447\",\"appl_id_txt\":\"14997447\",\"appSubCls\":\"046000\",\"patentNumber\":\"11822609\",\"LAST_MOD_TS\":\"2023-12-05T05:57:07Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -10803,7 +10796,7 @@ interactions:
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2016-01-15 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2016-01-15 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2016-01-15
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-29T08:30:03Z\",\"appCls\":\"706\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-05T13:40:02Z\",\"appCls\":\"706\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"SUITE
       300\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"161.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"347\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"161\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -11031,7 +11024,7 @@ interactions:
       Brent  \",\"phoneNum\":\"651-792-5634\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"80736\",\"fullName\":\"Tebow,
       Christopher  \",\"phoneNum\":\"651-286-8383\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"36226\",\"fullName\":\"O'Malley,
       Joseph  \",\"phoneNum\":\"415-350-6823\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"62181655\",\"applicationNumberText\":\"14997447\",\"filingDate\":\"06-18-2015\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"159214\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"939\",\"corrAddrCity\":\"WOODBURY\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"7149\",\"lastUpdatedTimestamp\":\"2023-11-30T01:03:19.203Z\",\"cmsData\":[\"{14997447|2023-07-13
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"159214\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"939\",\"corrAddrCity\":\"WOODBURY\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"7149\",\"lastUpdatedTimestamp\":\"2023-12-06T06:36:27.272Z\",\"cmsData\":[\"{14997447|2023-07-13
       05:49:03|PROSECUTION|Office Action Appendix|OA.APPENDIX|4|LJYL75UQGREENX3},{14997447|2023-07-13
       05:49:03|PROSECUTION|Index of Claims|FWCLM|1|LJYL75UOGREENX3},{14997447|2023-07-13
       05:49:03|PROSECUTION|Examiner's search strategy and results|SRNT|1|LJYL75UTGREENX3},{14997447|2023-07-13
@@ -11220,7 +11213,7 @@ interactions:
       black and white line drawings|DRW|8|IJGHZKPVPXXIFW3},{14997447|2016-01-14 19:00:00|PROSECUTION|Specification|SPEC|42|IJGHZKPEPXXIFW3},{14997447|2016-01-14
       19:00:00|PROSECUTION|Application Data Sheet|ADS|8|IJGHZKQ0PXXIFW3},{14997447|2016-01-14
       19:00:00|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|IJGHZKRCPXXIFW3},{14997447|2016-01-14
-      19:00:00|PROSECUTION|Abstract|ABST|1|IJGHZKPPPXXIFW3}\"],\"appAttrDockNumberFacet\":\"1248-086US01\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"159214\",\"_version_\":1783948857311232000,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20170076219A1\",\"patentNumberFacet\":\"11822609\"},{\"corrAddrCountryName\":\"UNITED
+      19:00:00|PROSECUTION|Abstract|ABST|1|IJGHZKPPPXXIFW3}\"],\"appAttrDockNumberFacet\":\"1248-086US01\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"159214\",\"_version_\":1784513493961015297,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20170076219A1\",\"patentNumberFacet\":\"11822609\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"15019836\",\"totalPtoDays\":\"67\",\"assignments\":[{\"reelNumber\":\"39151\",\"frameNumber\":\"211\",\"addressNameText\":\"HAYNES
       AND BOONE, LLP.\",\"addressLineOneText\":\"2323 VICTORY AVENUE\",\"addressLineTwoText\":\"SUITE
       700\",\"addressLineThreeText\":\"DALLAS, TX 75219\",\"addressLineFourText\":\"null\",\"mailDate\":\"07-14-2016\",\"receivedDate\":\"07-13-2016\",\"recordedDate\":\"07-13-2016\",\"pagesCount\":\"3\",\"converyanceName\":\"ASSIGNMENT
@@ -11241,7 +11234,7 @@ interactions:
       Semiconductor Manufacturing Co., Ltd.||||Hsin-Chu||TW|ORG|1}\",\"appFilingDate\":\"2016-02-09T00:00:00Z\",\"appExamName\":\"CHU,
       JOHN S Y\",\"appExamNameFacet\":\"CHU, JOHN S Y\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"An-Ren
       \ Zi\",\"inventorNameFacet\":\"An-Ren  Zi\",\"appEarlyPubDate\":\"2017-08-10T00:00:00Z\",\"corrAddrGeoRegionCode\":\"TX\",\"corrAddrNameLineTwo\":\"TSMC
-      - IP Docketing\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20170227852A1\",\"id\":\"15019836\",\"appGrpArtNumber\":\"1737\",\"appGrpArtNumberFacet\":\"1737\",\"applIdStr\":\"15019836\",\"appl_id_txt\":\"15019836\",\"appSubCls\":\"270100\",\"patentNumber\":\"11822251\",\"LAST_MOD_TS\":\"2023-11-28T13:20:40Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      - IP Docketing\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20170227852A1\",\"id\":\"15019836\",\"appGrpArtNumber\":\"1737\",\"appGrpArtNumberFacet\":\"1737\",\"applIdStr\":\"15019836\",\"appl_id_txt\":\"15019836\",\"appSubCls\":\"270100\",\"patentNumber\":\"11822251\",\"LAST_MOD_TS\":\"2023-12-03T21:20:41Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -11396,7 +11389,7 @@ interactions:
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2016-02-10 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2016-02-09 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2016-02-09
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-28T18:30:03Z\",\"appCls\":\"430\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T01:05:02Z\",\"appCls\":\"430\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"Suite
       2300\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"171.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"54\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"171\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -11597,7 +11590,7 @@ interactions:
       Lixin  \",\"phoneNum\":\"313-608-8582\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"77224\",\"fullName\":\"Hsu,
       Mu Wei  \",\"phoneNum\":\"832-620-6875\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"78492\",\"fullName\":\"Xu,
       Qing  \",\"phoneNum\":\"972-739-8647\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"77434\",\"fullName\":\"Erickson,
-      Adam  \",\"phoneNum\":\"720-980-5833\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"42717\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"170\",\"corrAddrCity\":\"Dallas\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"6673\",\"lastUpdatedTimestamp\":\"2023-11-29T12:05:32.947Z\",\"cmsData\":[\"{15019836|2023-07-11
+      Adam  \",\"phoneNum\":\"720-980-5833\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"42717\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"170\",\"corrAddrCity\":\"Dallas\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"6673\",\"lastUpdatedTimestamp\":\"2023-12-04T18:20:12.272Z\",\"cmsData\":[\"{15019836|2023-07-11
       20:00:00|PROSECUTION|Foreign Reference|FOR|41|LJWS0YR3GREENX4},{15019836|2023-07-11
       20:00:00|PROSECUTION|Issue Information including classification, examiner, name,
       claim, renumbering, etc.|IIFW|3|LJWS0YQZGREENX4},{15019836|2023-07-11 20:00:00|PROSECUTION|Search
@@ -11753,14 +11746,14 @@ interactions:
       19:00:00|PROSECUTION|Application Data Sheet|ADS|8|IKG2YPQHRXEAPX1},{15019836|2016-02-08
       19:00:00|PROSECUTION|Abstract|ABST|1|IKG2YPQLRXEAPX1},{15019836|2016-02-08 19:00:00|PROSECUTION|Drawings-only
       black and white line drawings|DRW|8|IKG2YPQNRXEAPX1},{15019836|2016-02-08 19:00:00|PROSECUTION|Electronic
-      Filing System(EFS) Acknowledgment Receipt|N417|3|IKG2YPQKRXEAPX1}\"],\"appAttrDockNumberFacet\":\"P20151244US00/24061.3317U\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"42717\",\"_version_\":1783900381915381760,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20170227852A1\",\"patentNumberFacet\":\"11822251\"},{\"corrAddrCountryName\":\"UNITED
+      Filing System(EFS) Acknowledgment Receipt|N417|3|IKG2YPQKRXEAPX1}\"],\"appAttrDockNumberFacet\":\"P20151244US00/24061.3317U\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"42717\",\"_version_\":1784376497310531585,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20170227852A1\",\"patentNumberFacet\":\"11822251\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"15041872\",\"totalPtoDays\":\"1077\",\"applicants\":[{\"nameLineOne\":\"Henderson\",\"nameLineTwo\":\"Timothy
       \",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Weehawken,
       \",\"geoCode\":\"NJ\",\"country\":\"(US)\",\"rankNo\":\"1\"},{\"nameLineOne\":\"Cothren\",\"nameLineTwo\":\"Quenten
       \",\"suffix\":\"\",\"streetOne\":\"\",\"streetTwo\":\"\",\"city\":\"Canton,
       \",\"geoCode\":\"GA\",\"country\":\"(US)\",\"rankNo\":\"2\"}],\"applicantsFacet\":\"{Timothy||Henderson||||Weehawken|NJ|US|IND|1},{Quenten||Cothren||||Canton|GA|US|IND|2}\",\"appFilingDate\":\"2016-02-11T00:00:00Z\",\"appExamName\":\"MOSELEY,
       GREGORY D\",\"appExamNameFacet\":\"MOSELEY, GREGORY D\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Timothy
-      \ Henderson\",\"inventorNameFacet\":\"Timothy  Henderson\",\"appEarlyPubDate\":\"2017-08-17T00:00:00Z\",\"corrAddrGeoRegionCode\":\"WA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20170235897A1\",\"id\":\"15041872\",\"appGrpArtNumber\":\"3686\",\"appGrpArtNumberFacet\":\"3686\",\"applIdStr\":\"15041872\",\"appl_id_txt\":\"15041872\",\"appSubCls\":\"002000\",\"patentNumber\":\"11823789\",\"LAST_MOD_TS\":\"2023-11-28T13:20:40Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ Henderson\",\"inventorNameFacet\":\"Timothy  Henderson\",\"appEarlyPubDate\":\"2017-08-17T00:00:00Z\",\"corrAddrGeoRegionCode\":\"WA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20170235897A1\",\"id\":\"15041872\",\"appGrpArtNumber\":\"3686\",\"appGrpArtNumberFacet\":\"3686\",\"applIdStr\":\"15041872\",\"appl_id_txt\":\"15041872\",\"appSubCls\":\"002000\",\"patentNumber\":\"11823789\",\"LAST_MOD_TS\":\"2023-12-03T21:20:41Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -11877,7 +11870,7 @@ interactions:
       (IDS) Filed\"},{\"recordDate\":\"2016-02-11 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2016-02-11 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2016-02-11
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-28T18:30:03Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T01:05:02Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"Suite
       #480\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"127.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"305\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"127\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -12006,7 +11999,7 @@ interactions:
       Dixon  \",\"phoneNum\":\"253-514-2887\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"34049\",\"fullName\":\"Karjeker,
       Shaukat  \",\"phoneNum\":\"972-367-2001\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"46437\",\"fullName\":\"Dodd,
       Michael  \",\"phoneNum\":\"801-550-4985\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"120407\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1276\",\"corrAddrCity\":\"Mountlake
-      Terrace\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"7437\",\"lastUpdatedTimestamp\":\"2023-11-29T12:10:54.199Z\",\"cmsData\":[\"{15041872|2023-09-07
+      Terrace\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"7437\",\"lastUpdatedTimestamp\":\"2023-12-04T18:16:06.994Z\",\"cmsData\":[\"{15041872|2023-09-07
       03:39:31|PROSECUTION|Index of Claims|FWCLM|1|LM6H8BA8GREENX0},{15041872|2023-09-07
       03:39:31|PROSECUTION|Examiner's search strategy and results|SRNT|4|LM6H8BBGGREENX0},{15041872|2023-09-07
       03:39:31|PROSECUTION|Examiner's search strategy and results|SRNT|3|LM6H8BAUGREENX0},{15041872|2023-09-07
@@ -12137,7 +12130,7 @@ interactions:
       19:00:00|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|IKIUDEFZRXEAPX1},{15041872|2016-02-10
       19:00:00|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|4|IKIUDEG3RXEAPX1},{15041872|2016-02-10
       19:00:00|PROSECUTION|Drawings-only black and white line drawings|DRW|5|IKIUDEG0RXEAPX1},{15041872|2016-02-10
-      19:00:00|PROSECUTION|Transmittal of New Application|TRNA|2|IKIUDEFYRXEAPX1}\"],\"appAttrDockNumberFacet\":\"Virtual_Rep_NPA_001\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"120407\",\"_version_\":1783900322057420800,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20170235897A1\",\"patentNumberFacet\":\"11823789\"},{\"corrAddrCountryName\":\"UNITED
+      19:00:00|PROSECUTION|Transmittal of New Application|TRNA|2|IKIUDEFYRXEAPX1}\"],\"appAttrDockNumberFacet\":\"Virtual_Rep_NPA_001\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"120407\",\"_version_\":1784376450489516032,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20170235897A1\",\"patentNumberFacet\":\"11823789\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"15075901\",\"totalPtoDays\":\"343\",\"assignments\":[{\"reelNumber\":\"38784\",\"frameNumber\":\"944\",\"addressNameText\":\"DORSEY
       & WHITNEY / RCPS INTELLECTUAL PRO\",\"addressLineOneText\":\"KEARNS BUILDING\",\"addressLineTwoText\":\"136
       SOUTH MAIN STREET, SUITE 1000\",\"addressLineThreeText\":\"SALT LAKE CITY, UT
@@ -12150,7 +12143,7 @@ interactions:
       Aviv, \",\"geoCode\":\"\",\"country\":\"(IL)\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||Guy
       A. Shaked Investments Ltd.||||Tel Aviv||IL|ORG|1}\",\"appFilingDate\":\"2016-03-21T00:00:00Z\",\"appExamName\":\"STEITZ,
       RACHEL RUNNING\",\"appExamNameFacet\":\"STEITZ, RACHEL RUNNING\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Sharon
-      \ GUY-RABI\",\"inventorNameFacet\":\"Sharon  GUY-RABI\",\"appEarlyPubDate\":\"2016-09-15T00:00:00Z\",\"corrAddrGeoRegionCode\":\"DC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160262518A1\",\"id\":\"15075901\",\"appGrpArtNumber\":\"3772\",\"appGrpArtNumberFacet\":\"3772\",\"applIdStr\":\"15075901\",\"appl_id_txt\":\"15075901\",\"appSubCls\":\"118000\",\"patentNumber\":\"11819117\",\"LAST_MOD_TS\":\"2023-11-28T13:20:40Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      \ GUY-RABI\",\"inventorNameFacet\":\"Sharon  GUY-RABI\",\"appEarlyPubDate\":\"2016-09-15T00:00:00Z\",\"corrAddrGeoRegionCode\":\"DC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160262518A1\",\"id\":\"15075901\",\"appGrpArtNumber\":\"3772\",\"appGrpArtNumberFacet\":\"3772\",\"applIdStr\":\"15075901\",\"appl_id_txt\":\"15075901\",\"appSubCls\":\"118000\",\"patentNumber\":\"11819117\",\"LAST_MOD_TS\":\"2023-12-03T21:20:41Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -12331,7 +12324,7 @@ interactions:
       Review\"},{\"recordDate\":\"2016-03-21 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2016-03-21
       00:00:00\",\"code\":\"R155X\",\"description\":\"1.55/1.78 Indicator set\"},{\"recordDate\":\"2016-03-21
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-28T18:30:03Z\",\"appCls\":\"132\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T01:05:02Z\",\"appCls\":\"132\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"SUITE
       1200\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"180.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"578\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"180\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -12639,7 +12632,7 @@ interactions:
       Laura  \",\"phoneNum\":\"212-745-0848\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"65064\",\"fullName\":\"Buchanan,
       Shawn  \",\"phoneNum\":\"312-463-5484\",\"regStatus\":\"ACTIVE\"}],\"parentContinuity\":[{\"claimApplicationNumberText\":\"14401540\",\"applicationNumberText\":\"15075901\",\"filingDate\":\"11-17-2014\",\"aiaIndicator\":\"N\",\"patentNumberText\":\"9591906\",\"applicationStatus\":\"Patented\",\"applicationStatusDescription\":\"This
       application is a Continuation in part of\"},{\"claimApplicationNumberText\":\"PCT/IL2013/050420\",\"applicationNumberText\":\"15075901\",\"filingDate\":\"05-16-2013\",\"aiaIndicator\":\"\",\"patentNumberText\":\"11819117\",\"applicationStatus\":\"Published\",\"applicationStatusDescription\":\"This
-      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"22907\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"959\",\"corrAddrCity\":\"WASHINGTON\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"7460\",\"lastUpdatedTimestamp\":\"2023-11-29T11:42:58.676Z\",\"cmsData\":[\"{15075901|2023-07-26
+      application is National Stage Entry of\"}],\"corrAddrCustNo\":\"22907\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"959\",\"corrAddrCity\":\"WASHINGTON\",\"appEntityStatus\":\"SMALL\",\"appConfrNumber\":\"7460\",\"lastUpdatedTimestamp\":\"2023-12-04T18:11:31.664Z\",\"cmsData\":[\"{15075901|2023-07-26
       20:00:00|PROSECUTION|Issue Information including classification, examiner, name,
       claim, renumbering, etc.|IIFW|3|LKL57OOFGREENX2},{15075901|2023-07-24 20:00:00|PROSECUTION|Bibliographic
       Data Sheet|BIB|1|LKCJLWZ3XBLUEX5},{15075901|2023-06-05 10:08:32|PROSECUTION|Applicant
@@ -13234,7 +13227,7 @@ interactions:
       20:00:00|PROSECUTION|Drawings-only black and white line drawings|DRW|17|IM2F5C1HPXXIFW3},{15075901|2016-03-20
       20:00:00|PROSECUTION|Claims|CLM|4|IM2F5C0YPXXIFW3},{15075901|2016-03-20 20:00:00|PROSECUTION|Specification|SPEC|21|IM2F5C0SPXXIFW3},{15075901|2016-03-20
       20:00:00|PROSECUTION|Transmittal of New Application|TRNA|2|IM2F5C0FPXXIFW3},{15075901|2016-03-20
-      20:00:00|PROSECUTION|Abstract|ABST|1|IM2F5C19PXXIFW3}\"],\"appAttrDockNumberFacet\":\"009147.00003\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"22907\",\"_version_\":1783899772023734272,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160262518A1\",\"patentNumberFacet\":\"11819117\"},{\"corrAddrCountryName\":\"UNITED
+      20:00:00|PROSECUTION|Abstract|ABST|1|IM2F5C19PXXIFW3}\"],\"appAttrDockNumberFacet\":\"009147.00003\",\"appEntityStatusFacet\":\"SMALL\",\"appCustNumberFacet\":\"22907\",\"_version_\":1784376039598718976,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160262518A1\",\"patentNumberFacet\":\"11819117\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"15097816\",\"totalPtoDays\":\"1445\",\"assignments\":[{\"reelNumber\":\"38427\",\"frameNumber\":\"511\",\"addressNameText\":\"BUCKLEY,
       MASCHOFF & TALWALKAR LLC\",\"addressLineOneText\":\"50 LOCUST AVENUE\",\"addressLineTwoText\":\"NEW
       CANAAN, CT 06840\",\"addressLineThreeText\":\"null\",\"addressLineFourText\":\"null\",\"mailDate\":\"05-02-2016\",\"receivedDate\":\"04-13-2016\",\"recordedDate\":\"04-13-2016\",\"pagesCount\":\"4\",\"converyanceName\":\"ASSIGNMENT
@@ -13247,7 +13240,7 @@ interactions:
       International Incorporated||||Purchase|NY|US|ORG|1}\",\"appFilingDate\":\"2016-04-13T00:00:00Z\",\"appExamName\":\"KHATRI,
       NILESH B\",\"appExamNameFacet\":\"KHATRI, NILESH B\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Saravana
       Perumal Shanmugam\",\"inventorNameFacet\":\"Saravana Perumal Shanmugam\",\"appEarlyPubDate\":\"2017-10-19T00:00:00Z\",\"corrAddrGeoRegionCode\":\"CT\",\"corrAddrNameLineTwo\":\"c/o
-      Buckley, Maschoff & Talwalkar LLC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20170300895A1\",\"id\":\"15097816\",\"appGrpArtNumber\":\"3685\",\"appGrpArtNumberFacet\":\"3685\",\"applIdStr\":\"15097816\",\"appl_id_txt\":\"15097816\",\"appSubCls\":\"071000\",\"patentNumber\":\"11823161\",\"LAST_MOD_TS\":\"2023-11-28T13:20:40Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      Buckley, Maschoff & Talwalkar LLC\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20170300895A1\",\"id\":\"15097816\",\"appGrpArtNumber\":\"3685\",\"appGrpArtNumberFacet\":\"3685\",\"applIdStr\":\"15097816\",\"appl_id_txt\":\"15097816\",\"appSubCls\":\"071000\",\"patentNumber\":\"11823161\",\"LAST_MOD_TS\":\"2023-12-03T21:20:41Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"MEPG_NTF\",\"description\":\"Mail Patent eGrant Notification\"},{\"recordDate\":\"2023-11-21
@@ -13378,7 +13371,7 @@ interactions:
       Review\"},{\"recordDate\":\"2016-04-13 00:00:00\",\"code\":\"WIDS\",\"description\":\"Information
       Disclosure Statement (IDS) Filed\"},{\"recordDate\":\"2016-04-13 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2016-04-13
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-28T18:30:03Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T01:05:02Z\",\"appCls\":\"705\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"Suite
       301\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"141.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"1003\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"141\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -13526,7 +13519,7 @@ interactions:
       Nicholas  \",\"phoneNum\":\"203-972-0006\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"61989\",\"fullName\":\"Whitehead,
       Andrew  \",\"phoneNum\":\"314-259-4708\",\"regStatus\":\"ACTIVE\"},{\"applicationId\":null,\"registrationNo\":\"66155\",\"fullName\":\"Tempesta,
       Edward  \",\"phoneNum\":\"914-249-2989\",\"regStatus\":\"ACTIVE\"}],\"corrAddrCustNo\":\"125619\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"1593\",\"corrAddrCity\":\"New
-      Canaan\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"6425\",\"lastUpdatedTimestamp\":\"2023-11-29T12:05:32.947Z\",\"cmsData\":[\"{15097816|2023-07-28
+      Canaan\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"6425\",\"lastUpdatedTimestamp\":\"2023-12-04T18:19:25.958Z\",\"cmsData\":[\"{15097816|2023-07-28
       11:32:44|PROSECUTION|Electronic Filing System(EFS) Acknowledgment Receipt|N417|2|LKMZG4BGGREENX0},{15097816|2023-07-28
       11:32:44|PROSECUTION|Electronic Fee Payment|N417.PYMT|2|LKMZG4B9GREENX0},{15097816|2023-07-28
       11:32:44|PROSECUTION|Issue Fee Payment (PTO-85B)|IFEE|1|LKMZG4B2GREENX0},{15097816|2023-06-20
@@ -13706,7 +13699,7 @@ interactions:
       20:00:00|PROSECUTION|Non Patent Literature|NPL|66|IMZA2W04PXXIFW3},{15097816|2016-04-12
       20:00:00|PROSECUTION|Non Patent Literature|NPL|2|IMZA2VZQPXXIFW3},{15097816|2016-04-12
       20:00:00|PROSECUTION|Information Disclosure Statement (IDS) Form (SB08)|IDS|4|IMZA2VYUPXXIFW3}\"],\"appAttrDockNumberFacet\":\"P02751-US-UTIL2
-      (M01.403)\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"125619\",\"_version_\":1783900286040932352,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20170300895A1\",\"patentNumberFacet\":\"11823161\"},{\"corrAddrCountryName\":\"UNITED
+      (M01.403)\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"125619\",\"_version_\":1784376444721299456,\"firstInventorFileFacet\":\"Yes\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20170300895A1\",\"patentNumberFacet\":\"11823161\"},{\"corrAddrCountryName\":\"UNITED
       STATES\",\"applId\":\"15099234\",\"totalPtoDays\":\"0\",\"assignments\":[{\"reelNumber\":\"40427\",\"frameNumber\":\"610\",\"addressNameText\":\"ALSTON
       & BIRD LLP\",\"addressLineOneText\":\"BANK OF AMERICA PLAZA\",\"addressLineTwoText\":\"101
       SOUTH TRYON STREET, SUITE 4000\",\"addressLineThreeText\":\"CHARLOTTE, NC 28280-4000\",\"addressLineFourText\":\"null\",\"mailDate\":\"11-29-2016\",\"receivedDate\":\"11-28-2016\",\"recordedDate\":\"11-28-2016\",\"pagesCount\":\"8\",\"converyanceName\":\"ASSIGNMENT
@@ -13732,7 +13725,7 @@ interactions:
       Alto, \",\"geoCode\":\"CA\",\"country\":\"(US)\",\"rankNo\":\"1\"}],\"applicantsFacet\":\"{||Kodiak
       Sciences Inc.||||Palo Alto|CA|US|ORG|1}\",\"appFilingDate\":\"2016-04-14T00:00:00Z\",\"appExamName\":\"PARK,
       HAEJIN S\",\"appExamNameFacet\":\"PARK, HAEJIN S\",\"publicInd\":\"Y\",\"APP_IND\":\"5\",\"inventorName\":\"Stephen
-      A. Charles\",\"inventorNameFacet\":\"Stephen A. Charles\",\"appEarlyPubDate\":\"2016-10-06T00:00:00Z\",\"corrAddrGeoRegionCode\":\"CA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160287715A1\",\"id\":\"15099234\",\"appGrpArtNumber\":\"1615\",\"appGrpArtNumberFacet\":\"1615\",\"applIdStr\":\"15099234\",\"appl_id_txt\":\"15099234\",\"appSubCls\":\"078080\",\"patentNumber\":\"11819531\",\"LAST_MOD_TS\":\"2023-11-28T08:15:39Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
+      A. Charles\",\"inventorNameFacet\":\"Stephen A. Charles\",\"appEarlyPubDate\":\"2016-10-06T00:00:00Z\",\"corrAddrGeoRegionCode\":\"CA\",\"appLocation\":\"ELECTRONIC\",\"appEarlyPubNumber\":\"US20160287715A1\",\"id\":\"15099234\",\"appGrpArtNumber\":\"1615\",\"appGrpArtNumberFacet\":\"1615\",\"applIdStr\":\"15099234\",\"appl_id_txt\":\"15099234\",\"appSubCls\":\"078080\",\"patentNumber\":\"11819531\",\"LAST_MOD_TS\":\"2023-12-03T21:20:41Z\",\"transactions\":[{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"CRFA\",\"description\":\"Sequence Moved to Public Database\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"PGM/\",\"description\":\"Recordation of Patent Grant Mailed\"},{\"recordDate\":\"2023-11-21
       00:00:00\",\"code\":\"EML_NTR\",\"description\":\"Email Notification\"},{\"recordDate\":\"2023-11-21
@@ -13964,7 +13957,7 @@ interactions:
       by OIPE CSR\"},{\"recordDate\":\"2016-04-14 00:00:00\",\"code\":\"SCAN\",\"description\":\"IFW
       Scan & PACR Auto Security Review\"},{\"recordDate\":\"2016-04-14 00:00:00\",\"code\":\"BIG.\",\"description\":\"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)\"},{\"recordDate\":\"2016-04-14
-      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-11-28T18:30:03Z\",\"appCls\":\"424\",\"appStatus\":\"Patented
+      00:00:00\",\"code\":\"IEXX\",\"description\":\"Initial Exam Team nn\"}],\"LAST_INSERT_TIME\":\"2023-12-04T01:05:02Z\",\"appCls\":\"424\",\"appStatus\":\"Patented
       Case\",\"appStatusFacet\":\"Patented Case\",\"appStatus_txt\":\"Patented Case\",\"corrAddrStreetLineTwo\":\"FOURTEENTH
       FLOOR\",\"ptaPteInd\":\"PTA\",\"ptaPteTranHistory\":[{\"number\":\"254.5\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"PTA
       36 Months\",\"ptoDays\":\"\",\"applDays\":\"\",\"start\":\"0.5\"},{\"number\":\"254\",\"ptaOrPteDate\":\"11-21-2023\",\"contentsDescription\":\"Patent
@@ -14436,7 +14429,7 @@ interactions:
       application is a Continuation in part of\"},{\"claimApplicationNumberText\":\"13515913\",\"applicationNumberText\":\"15099234\",\"filingDate\":\"08-27-2012\",\"aiaIndicator\":\"N\",\"patentNumberText\":\"8765432\",\"applicationStatus\":\"Patented\",\"applicationStatusDescription\":\"This
       application is a Continuation of\"},{\"claimApplicationNumberText\":\"PCT/US2010/034252\",\"applicationNumberText\":\"15099234\",\"filingDate\":\"05-10-2010\",\"aiaIndicator\":\"\",\"patentNumberText\":\"11819531\",\"applicationStatus\":\"Published\",\"applicationStatusDescription\":\"This
       application is National Stage Entry of\"},{\"claimApplicationNumberText\":\"61288127\",\"applicationNumberText\":\"15099234\",\"filingDate\":\"12-18-2009\",\"aiaIndicator\":\"\",\"patentNumberText\":\"\",\"applicationStatus\":\"Expired\",\"applicationStatusDescription\":\"This
-      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"20995\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"148\",\"corrAddrCity\":\"IRVINE\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"9751\",\"lastUpdatedTimestamp\":\"2023-11-29T12:10:54.199Z\",\"cmsData\":[\"{15099234|2023-09-06
+      application Claims Priority from Provisional Application\"}],\"corrAddrCustNo\":\"20995\",\"corrAddrCountryCd\":\"US\",\"ptoDelay\":\"148\",\"corrAddrCity\":\"IRVINE\",\"appEntityStatus\":\"UNDISCOUNTED\",\"appConfrNumber\":\"9751\",\"lastUpdatedTimestamp\":\"2023-12-04T18:16:06.994Z\",\"cmsData\":[\"{15099234|2023-09-06
       20:00:00|PROSECUTION|Notice of Publication|NTC.PUB|1|LM8HSXJ3GREENX4},{15099234|2023-07-18
       20:00:00|PROSECUTION|Notice of Allowance and Fees Due (PTOL-85)|NOA|6|LK71TZY0GREENX5},{15099234|2023-07-18
       20:00:00|PROSECUTION|List of References cited by applicant and considered by
@@ -15179,7 +15172,7 @@ interactions:
       20:00:00|PROSECUTION|Specification|SPEC|1|IN0SHW50PXXIFW3},{15099234|2016-04-13
       20:00:00|PROSECUTION|Specification|SPEC|156|IN0SHW68PXXIFW3},{15099234|2016-04-13
       20:00:00|PROSECUTION|Claims|CLM|18|IN0SHW6NPXXIFW3},{15099234|2016-04-13 20:00:00|PROSECUTION|Sequence
-      Listing (Text File)|SEQ.TXT|1|IN0SH4JRPXXIFW4}\"],\"appAttrDockNumberFacet\":\"KDIAK.006P1\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"20995\",\"_version_\":1783900286885036032,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160287715A1\",\"patentNumberFacet\":\"11819531\"}]}},\"queryId\":\"2bc90d3c-1799-40a0-b47b-ccfff4066960\"},\"jobStatus\":null,\"queryId\":\"2bc90d3c-1799-40a0-b47b-ccfff4066960\",\"page\":1,\"count\":0,\"errorMessage\":null,\"createQueryRequest\":{\"searchText\":\"patentIssueDate:[2023-11-21T00:00:00Z
+      Listing (Text File)|SEQ.TXT|1|IN0SH4JRPXXIFW4}\"],\"appAttrDockNumberFacet\":\"KDIAK.006P1\",\"appEntityStatusFacet\":\"UNDISCOUNTED\",\"appCustNumberFacet\":\"20995\",\"_version_\":1784376426041966592,\"firstInventorFileFacet\":\"No\",\"appLocationFacet\":\"ELECTRONIC\",\"appEarlyPubNumberFacet\":\"US20160287715A1\",\"patentNumberFacet\":\"11819531\"}]}},\"queryId\":\"5836ac4a-4816-482d-a250-dd1299aacbd5\"},\"jobStatus\":null,\"queryId\":\"5836ac4a-4816-482d-a250-dd1299aacbd5\",\"page\":1,\"count\":0,\"errorMessage\":null,\"createQueryRequest\":{\"searchText\":\"patentIssueDate:[2023-11-21T00:00:00Z
       TO 2023-11-21T23:59:59Z]\",\"facet\":\"false\",\"facetField\":null,\"facetLimit\":null,\"facetMissing\":null,\"facetDate\":null,\"facetDateGap\":null,\"facetDateStart\":null,\"facetDateEnd\":null,\"facetDateOther\":null,\"facetDateInclude\":null,\"mm\":\"0%\",\"sort\":\"applId
       asc\",\"qf\":\"appEarlyPubNumber applId appLocation appType appStatus_txt appConfrNumber
       appCustNumber appGrpArtNumber appCls appSubCls appEntityStatus_txt patentNumber
@@ -15190,7 +15183,7 @@ interactions:
       appCls appSubCls appEntityStatus_txt patentNumber patentTitle inventorName firstNamedApplicant
       appExamName appExamPrefrdName appAttrDockNumber appPCTNumber appIntlPubNumber
       wipoEarlyPubNumber pctAppType firstInventorFile appClsSubCls rankAndInventorsList\",\"fl\":[\"*\"],\"start\":\"0\",\"sort\":\"applId
-      asc\",\"fq\":[],\"rows\":\"25\",\"facet\":\"false\"}},\"links\":[{\"rel\":\"self\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960?format=XML\"},{\"rel\":\"results\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960/results?page=1\"},{\"rel\":\"package\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960/package?format=XML\"},{\"rel\":\"first\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960/results?page=1\"},{\"rel\":\"next\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960/results?page=2\"},{\"rel\":\"self\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960?format=JSON\"},{\"rel\":\"results\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960/results?page=1\"},{\"rel\":\"package\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960/package?format=JSON\"},{\"rel\":\"first\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960/results?page=1\"},{\"rel\":\"next\",\"href\":\"https://ped.uspto.gov/api/queries/2bc90d3c-1799-40a0-b47b-ccfff4066960/results?page=2\"}]}"
+      asc\",\"fq\":[],\"rows\":\"25\",\"facet\":\"false\"}},\"links\":[{\"rel\":\"self\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5?format=XML\"},{\"rel\":\"results\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5/results?page=1\"},{\"rel\":\"package\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5/package?format=XML\"},{\"rel\":\"first\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5/results?page=1\"},{\"rel\":\"next\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5/results?page=2\"},{\"rel\":\"self\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5?format=JSON\"},{\"rel\":\"results\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5/results?page=1\"},{\"rel\":\"package\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5/package?format=JSON\"},{\"rel\":\"first\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5/results?page=1\"},{\"rel\":\"next\",\"href\":\"https://ped.uspto.gov/api/queries/5836ac4a-4816-482d-a250-dd1299aacbd5/results?page=2\"}]}"
     headers:
       Cache-Control:
       - no-cache, no-store, max-age=0, must-revalidate
@@ -15199,21 +15192,21 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Thu, 30 Nov 2023 18:09:37 GMT
+      - Wed, 06 Dec 2023 19:16:45 GMT
       Expires:
       - '0'
       Pragma:
       - no-cache
       Server-Timing:
-      - intid;desc=30cd4a84b24e9d33
+      - intid;desc=847b8a7cdfe964c5
       Strict-Transport-Security:
       - max-age=31536000;includeSubDomains
       Transfer-Encoding:
       - chunked
       Via:
-      - 1.1 ed57c867ac386aff2fbbc4e97f282304.cloudfront.net (CloudFront)
+      - 1.1 dce3932214fb38d941490d48f7ff75dc.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - SOLRDR9qSGJ1Pm7Lg4cWiKJrvVQxwDi6JOealNfAdxef03X0sIzOHA==
+      - qV6jCXdJjTGOmzJV562EZNCoPjy-enHgBJMH8pQ_yqEFclfCg-krSA==
       X-Amz-Cf-Pop:
       - IAH50-C1
       X-Cache:

@@ -21,11 +21,11 @@ interactions:
       host:
       - ped.uspto.gov
       user-agent:
-      - Mozilla/5.0 Python Patent Clientbot/4.1.1 (parkerhancock@users.noreply.github.com)
+      - Mozilla/5.0 Python Patent Clientbot/4.1.3 (parkerhancock@users.noreply.github.com)
     method: POST
     uri: https://ped.uspto.gov/api/queries
   response:
-    content: '{"queryResults":{"indexLastUpdatedDate":"Thu Nov 30 13:06:39 EST 2023","searchResponse":{"responseHeader":{"zkConnected":true,"status":0,"QTime":1116},"response":{"numFound":1,"start":0,"numFoundExact":true,"docs":[{"corrAddrCountryName":"UNITED
+    content: '{"queryResults":{"indexLastUpdatedDate":"Wed Dec 06 08:44:09 EST 2023","searchResponse":{"responseHeader":{"zkConnected":true,"status":0,"QTime":700},"response":{"numFound":1,"start":0,"numFoundExact":true,"docs":[{"corrAddrCountryName":"UNITED
       STATES","applId":"15896870","totalPtoDays":"0","assignments":[{"reelNumber":"44989","frameNumber":"263","addressNameText":"ARENT
       FOX LLP","addressLineOneText":"1717 K STREET NW","addressLineTwoText":"WASHINGTON,
       DC 20006","addressLineThreeText":"null","addressLineFourText":"null","mailDate":"02-22-2018","receivedDate":"02-21-2018","recordedDate":"02-21-2018","pagesCount":"2","converyanceName":"ASSIGNMENT
@@ -36,7 +36,7 @@ interactions:
       TECHNOLOGY AS","nameLineTwo":" ","suffix":"","streetOne":"","streetTwo":"","city":"Ytre
       Arna, ","geoCode":"","country":"(NO)","rankNo":"1"}],"applicantsFacet":"{||FRAC
       TECHNOLOGY AS||||Ytre Arna||NO|ORG|1}","appFilingDate":"2018-02-14T00:00:00Z","appExamName":"LEMBO,
-      AARON LLOYD","appExamNameFacet":"LEMBO, AARON LLOYD","publicInd":"Y","APP_IND":"5","inventorName":"Viggo  Brandsdal","inventorNameFacet":"Viggo  Brandsdal","appEarlyPubDate":"2018-08-16T00:00:00Z","corrAddrGeoRegionCode":"TX","appLocation":"ELECTRONIC","appEarlyPubNumber":"US20180230772A1","id":"15896870","appGrpArtNumber":"3679","appGrpArtNumberFacet":"3679","applIdStr":"15896870","appl_id_txt":"15896870","appSubCls":"308100","patentNumber":"10544653","LAST_MOD_TS":"2023-11-28T13:52:58Z","transactions":[{"recordDate":"2023-07-12
+      AARON LLOYD","appExamNameFacet":"LEMBO, AARON LLOYD","publicInd":"Y","APP_IND":"5","inventorName":"Viggo  Brandsdal","inventorNameFacet":"Viggo  Brandsdal","appEarlyPubDate":"2018-08-16T00:00:00Z","corrAddrGeoRegionCode":"TX","appLocation":"ELECTRONIC","appEarlyPubNumber":"US20180230772A1","id":"15896870","appGrpArtNumber":"3679","appGrpArtNumberFacet":"3679","applIdStr":"15896870","appl_id_txt":"15896870","appSubCls":"308100","patentNumber":"10544653","LAST_MOD_TS":"2023-12-03T21:53:01Z","transactions":[{"recordDate":"2023-07-12
       00:00:00","code":"M1551","description":"Payment of Maintenance Fee, 4th Year,
       Large Entity"},{"recordDate":"2020-01-28 00:00:00","code":"PGM/","description":"Recordation
       of Patent Grant Mailed"},{"recordDate":"2020-01-09 00:00:00","code":"EML_NTR","description":"Email
@@ -91,7 +91,7 @@ interactions:
       Filed"},{"recordDate":"2018-02-14 00:00:00","code":"SCAN","description":"IFW
       Scan & PACR Auto Security Review"},{"recordDate":"2018-02-14 00:00:00","code":"BIG.","description":"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)"},{"recordDate":"2018-02-14
-      00:00:00","code":"IEXX","description":"Initial Exam Team nn"}],"LAST_INSERT_TIME":"2023-11-28T18:30:03Z","appCls":"166","appStatus":"Patented
+      00:00:00","code":"IEXX","description":"Initial Exam Team nn"}],"LAST_INSERT_TIME":"2023-12-04T01:05:02Z","appCls":"166","appStatus":"Patented
       Case","appStatusFacet":"Patented Case","appStatus_txt":"Patented Case","ptaPteInd":"PTA","ptaPteTranHistory":[{"number":"53.5","ptaOrPteDate":"01-28-2020","contentsDescription":"PTA
       36 Months","ptoDays":"","applDays":"","start":"0.5"},{"number":"53","ptaOrPteDate":"01-28-2020","contentsDescription":"Patent
       Issue Date Used in PTA Calculation","ptoDays":"","applDays":"","start":"0"},{"number":"51","ptaOrPteDate":"12-27-2019","contentsDescription":"Dispatch
@@ -159,7 +159,7 @@ interactions:
       Parker  ","phoneNum":"713-758-2153","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"73369","fullName":"Lim,
       Lithaw  ","phoneNum":"206-389-4510","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"75839","fullName":"Lubow,
       Abigail  ","phoneNum":"415-828-1669","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"77008","fullName":"Swigart,
-      Jeffrey  ","phoneNum":"214-220-7811","regStatus":"ACTIVE"}],"corrAddrCustNo":"22892","corrAddrCountryCd":"US","ptoDelay":"0","corrAddrCity":"HOUSTON","appEntityStatus":"UNDISCOUNTED","appConfrNumber":"1033","lastUpdatedTimestamp":"2023-11-29T11:47:13.762Z","cmsData":["{15896870|2020-01-08
+      Jeffrey  ","phoneNum":"214-220-7811","regStatus":"ACTIVE"}],"corrAddrCustNo":"22892","corrAddrCountryCd":"US","ptoDelay":"0","corrAddrCity":"HOUSTON","appEntityStatus":"UNDISCOUNTED","appConfrNumber":"1033","lastUpdatedTimestamp":"2023-12-04T17:46:13.861Z","cmsData":["{15896870|2020-01-08
       09:35:31|PROSECUTION|Issue Notification|ISSUE.NTF|1|K55PD7U3RXEAPX4},{15896870|2019-12-18
       08:54:53|PROSECUTION|Issue Fee Payment (PTO-85B)|IFEE|1|K4BNO2Y8RXEAPX4},{15896870|2019-12-18
       08:54:53|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|K4BNO2Y9RXEAPX4},{15896870|2019-12-18
@@ -216,7 +216,7 @@ interactions:
       Arguments/Remarks Made in an Amendment|REM|1|JDNX2OTMRXEAPX1},{15896870|2018-02-14
       16:59:20|PROSECUTION|Application Data Sheet|ADS|8|JDNX2OTNRXEAPX1},{15896870|2018-02-14
       16:59:20|PROSECUTION|Abstract|ABST|1|JDNX2OTLRXEAPX1},{15896870|2018-02-14 16:59:20|PROSECUTION|Preliminary
-      Amendment|A.PE|1|JDNX2OTIRXEAPX1},{15896870|2018-02-14 16:59:20|PROSECUTION|Specification|SPEC|1|JDNX2OTJRXEAPX1}"],"appAttrDockNumberFacet":"NSC100/4-014US","appEntityStatusFacet":"UNDISCOUNTED","appCustNumberFacet":"22892","_version_":1783898935455121408,"firstInventorFileFacet":"Yes","appLocationFacet":"ELECTRONIC","appEarlyPubNumberFacet":"US20180230772A1","patentNumberFacet":"10544653"}]}},"queryId":"1f01ef71-a5c4-4ba9-87e8-782e48023ed9"},"jobStatus":null,"queryId":"1f01ef71-a5c4-4ba9-87e8-782e48023ed9","page":1,"count":0,"errorMessage":null,"createQueryRequest":{"searchText":"patentNumber:(10544653)","facet":"false","facetField":null,"facetLimit":null,"facetMissing":null,"facetDate":null,"facetDateGap":null,"facetDateStart":null,"facetDateEnd":null,"facetDateOther":null,"facetDateInclude":null,"mm":"0%","sort":"applId
+      Amendment|A.PE|1|JDNX2OTIRXEAPX1},{15896870|2018-02-14 16:59:20|PROSECUTION|Specification|SPEC|1|JDNX2OTJRXEAPX1}"],"appAttrDockNumberFacet":"NSC100/4-014US","appEntityStatusFacet":"UNDISCOUNTED","appCustNumberFacet":"22892","_version_":1784374363768750081,"firstInventorFileFacet":"Yes","appLocationFacet":"ELECTRONIC","appEarlyPubNumberFacet":"US20180230772A1","patentNumberFacet":"10544653"}]}},"queryId":"91d6a2aa-c9e6-4dd4-9da0-20da5449c144"},"jobStatus":null,"queryId":"91d6a2aa-c9e6-4dd4-9da0-20da5449c144","page":1,"count":0,"errorMessage":null,"createQueryRequest":{"searchText":"patentNumber:(10544653)","facet":"false","facetField":null,"facetLimit":null,"facetMissing":null,"facetDate":null,"facetDateGap":null,"facetDateStart":null,"facetDateEnd":null,"facetDateOther":null,"facetDateInclude":null,"mm":"0%","sort":"applId
       asc","qf":"appEarlyPubNumber applId appLocation appType appStatus_txt appConfrNumber
       appCustNumber appGrpArtNumber appCls appSubCls appEntityStatus_txt patentNumber
       patentTitle inventorName firstNamedApplicant appExamName appExamPrefrdName appAttrDockNumber
@@ -226,7 +226,7 @@ interactions:
       appCls appSubCls appEntityStatus_txt patentNumber patentTitle inventorName firstNamedApplicant
       appExamName appExamPrefrdName appAttrDockNumber appPCTNumber appIntlPubNumber
       wipoEarlyPubNumber pctAppType firstInventorFile appClsSubCls rankAndInventorsList","fl":["*"],"start":"0","sort":"applId
-      asc","fq":[],"rows":"25","facet":"false"}},"links":[{"rel":"self","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9?format=XML"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9/package?format=XML"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9/results?page=2"},{"rel":"self","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9?format=JSON"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9/package?format=JSON"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/1f01ef71-a5c4-4ba9-87e8-782e48023ed9/results?page=2"}]}'
+      asc","fq":[],"rows":"25","facet":"false"}},"links":[{"rel":"self","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144?format=XML"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144/package?format=XML"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144/results?page=2"},{"rel":"self","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144?format=JSON"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144/package?format=JSON"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/91d6a2aa-c9e6-4dd4-9da0-20da5449c144/results?page=2"}]}'
     headers:
       Cache-Control:
       - no-cache, no-store, max-age=0, must-revalidate
@@ -235,21 +235,21 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Thu, 30 Nov 2023 18:10:52 GMT
+      - Wed, 06 Dec 2023 19:17:22 GMT
       Expires:
       - '0'
       Pragma:
       - no-cache
       Server-Timing:
-      - intid;desc=7d95594600cb22df
+      - intid;desc=1139d2e8e551b3e3
       Strict-Transport-Security:
       - max-age=31536000;includeSubDomains
       Transfer-Encoding:
       - chunked
       Via:
-      - 1.1 ed57c867ac386aff2fbbc4e97f282304.cloudfront.net (CloudFront)
+      - 1.1 dce3932214fb38d941490d48f7ff75dc.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - 13hvN9mgajhfD1Opio-7KtD2xqp4IifmvpeLwC0t_B_OBsFvSI79Bw==
+      - HxUPpj3NJ6tRC75er0WBK58VmqEymWjr-ibSgVhhPn0crr8A9AWwMQ==
       X-Amz-Cf-Pop:
       - IAH50-C1
       X-Cache:
@@ -284,11 +284,11 @@ interactions:
       host:
       - ped.uspto.gov
       user-agent:
-      - Mozilla/5.0 Python Patent Clientbot/4.1.1 (parkerhancock@users.noreply.github.com)
+      - Mozilla/5.0 Python Patent Clientbot/4.1.3 (parkerhancock@users.noreply.github.com)
     method: POST
     uri: https://ped.uspto.gov/api/queries
   response:
-    content: '{"queryResults":{"indexLastUpdatedDate":"Thu Nov 30 12:52:38 EST 2023","searchResponse":{"responseHeader":{"zkConnected":true,"status":0,"QTime":607},"response":{"numFound":1,"start":0,"numFoundExact":true,"docs":[{"corrAddrCountryName":"UNITED
+    content: '{"queryResults":{"indexLastUpdatedDate":"Wed Dec 06 10:23:25 EST 2023","searchResponse":{"responseHeader":{"zkConnected":true,"status":0,"QTime":594},"response":{"numFound":1,"start":0,"numFoundExact":true,"docs":[{"corrAddrCountryName":"UNITED
       STATES","applId":"15896870","totalPtoDays":"0","assignments":[{"reelNumber":"44989","frameNumber":"263","addressNameText":"ARENT
       FOX LLP","addressLineOneText":"1717 K STREET NW","addressLineTwoText":"WASHINGTON,
       DC 20006","addressLineThreeText":"null","addressLineFourText":"null","mailDate":"02-22-2018","receivedDate":"02-21-2018","recordedDate":"02-21-2018","pagesCount":"2","converyanceName":"ASSIGNMENT
@@ -299,7 +299,7 @@ interactions:
       TECHNOLOGY AS","nameLineTwo":" ","suffix":"","streetOne":"","streetTwo":"","city":"Ytre
       Arna, ","geoCode":"","country":"(NO)","rankNo":"1"}],"applicantsFacet":"{||FRAC
       TECHNOLOGY AS||||Ytre Arna||NO|ORG|1}","appFilingDate":"2018-02-14T00:00:00Z","appExamName":"LEMBO,
-      AARON LLOYD","appExamNameFacet":"LEMBO, AARON LLOYD","publicInd":"Y","APP_IND":"5","inventorName":"Viggo  Brandsdal","inventorNameFacet":"Viggo  Brandsdal","appEarlyPubDate":"2018-08-16T00:00:00Z","corrAddrGeoRegionCode":"TX","appLocation":"ELECTRONIC","appEarlyPubNumber":"US20180230772A1","id":"15896870","appGrpArtNumber":"3679","appGrpArtNumberFacet":"3679","applIdStr":"15896870","appl_id_txt":"15896870","appSubCls":"308100","patentNumber":"10544653","LAST_MOD_TS":"2023-11-28T13:52:58Z","transactions":[{"recordDate":"2023-07-12
+      AARON LLOYD","appExamNameFacet":"LEMBO, AARON LLOYD","publicInd":"Y","APP_IND":"5","inventorName":"Viggo  Brandsdal","inventorNameFacet":"Viggo  Brandsdal","appEarlyPubDate":"2018-08-16T00:00:00Z","corrAddrGeoRegionCode":"TX","appLocation":"ELECTRONIC","appEarlyPubNumber":"US20180230772A1","id":"15896870","appGrpArtNumber":"3679","appGrpArtNumberFacet":"3679","applIdStr":"15896870","appl_id_txt":"15896870","appSubCls":"308100","patentNumber":"10544653","LAST_MOD_TS":"2023-12-03T21:53:01Z","transactions":[{"recordDate":"2023-07-12
       00:00:00","code":"M1551","description":"Payment of Maintenance Fee, 4th Year,
       Large Entity"},{"recordDate":"2020-01-28 00:00:00","code":"PGM/","description":"Recordation
       of Patent Grant Mailed"},{"recordDate":"2020-01-09 00:00:00","code":"EML_NTR","description":"Email
@@ -354,7 +354,7 @@ interactions:
       Filed"},{"recordDate":"2018-02-14 00:00:00","code":"SCAN","description":"IFW
       Scan & PACR Auto Security Review"},{"recordDate":"2018-02-14 00:00:00","code":"BIG.","description":"Entity
       Status Set To Undiscounted (Initial Default Setting or Status Change)"},{"recordDate":"2018-02-14
-      00:00:00","code":"IEXX","description":"Initial Exam Team nn"}],"LAST_INSERT_TIME":"2023-11-28T18:30:03Z","appCls":"166","appStatus":"Patented
+      00:00:00","code":"IEXX","description":"Initial Exam Team nn"}],"LAST_INSERT_TIME":"2023-12-04T01:05:02Z","appCls":"166","appStatus":"Patented
       Case","appStatusFacet":"Patented Case","appStatus_txt":"Patented Case","ptaPteInd":"PTA","ptaPteTranHistory":[{"number":"53.5","ptaOrPteDate":"01-28-2020","contentsDescription":"PTA
       36 Months","ptoDays":"","applDays":"","start":"0.5"},{"number":"53","ptaOrPteDate":"01-28-2020","contentsDescription":"Patent
       Issue Date Used in PTA Calculation","ptoDays":"","applDays":"","start":"0"},{"number":"51","ptaOrPteDate":"12-27-2019","contentsDescription":"Dispatch
@@ -422,7 +422,7 @@ interactions:
       Parker  ","phoneNum":"713-758-2153","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"73369","fullName":"Lim,
       Lithaw  ","phoneNum":"206-389-4510","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"75839","fullName":"Lubow,
       Abigail  ","phoneNum":"415-828-1669","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"77008","fullName":"Swigart,
-      Jeffrey  ","phoneNum":"214-220-7811","regStatus":"ACTIVE"}],"corrAddrCustNo":"22892","corrAddrCountryCd":"US","ptoDelay":"0","corrAddrCity":"HOUSTON","appEntityStatus":"UNDISCOUNTED","appConfrNumber":"1033","lastUpdatedTimestamp":"2023-11-29T11:47:13.762Z","cmsData":["{15896870|2020-01-08
+      Jeffrey  ","phoneNum":"214-220-7811","regStatus":"ACTIVE"}],"corrAddrCustNo":"22892","corrAddrCountryCd":"US","ptoDelay":"0","corrAddrCity":"HOUSTON","appEntityStatus":"UNDISCOUNTED","appConfrNumber":"1033","lastUpdatedTimestamp":"2023-12-04T17:46:13.861Z","cmsData":["{15896870|2020-01-08
       09:35:31|PROSECUTION|Issue Notification|ISSUE.NTF|1|K55PD7U3RXEAPX4},{15896870|2019-12-18
       08:54:53|PROSECUTION|Issue Fee Payment (PTO-85B)|IFEE|1|K4BNO2Y8RXEAPX4},{15896870|2019-12-18
       08:54:53|PROSECUTION|Fee Worksheet (SB06)|WFEE|2|K4BNO2Y9RXEAPX4},{15896870|2019-12-18
@@ -479,7 +479,7 @@ interactions:
       Arguments/Remarks Made in an Amendment|REM|1|JDNX2OTMRXEAPX1},{15896870|2018-02-14
       16:59:20|PROSECUTION|Application Data Sheet|ADS|8|JDNX2OTNRXEAPX1},{15896870|2018-02-14
       16:59:20|PROSECUTION|Abstract|ABST|1|JDNX2OTLRXEAPX1},{15896870|2018-02-14 16:59:20|PROSECUTION|Preliminary
-      Amendment|A.PE|1|JDNX2OTIRXEAPX1},{15896870|2018-02-14 16:59:20|PROSECUTION|Specification|SPEC|1|JDNX2OTJRXEAPX1}"],"appAttrDockNumberFacet":"NSC100/4-014US","appEntityStatusFacet":"UNDISCOUNTED","appCustNumberFacet":"22892","_version_":1783898935455121408,"firstInventorFileFacet":"Yes","appLocationFacet":"ELECTRONIC","appEarlyPubNumberFacet":"US20180230772A1","patentNumberFacet":"10544653"}]}},"queryId":"9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe"},"jobStatus":null,"queryId":"9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe","page":1,"count":0,"errorMessage":null,"createQueryRequest":{"searchText":"patentNumber:(10544653)","facet":"false","facetField":null,"facetLimit":null,"facetMissing":null,"facetDate":null,"facetDateGap":null,"facetDateStart":null,"facetDateEnd":null,"facetDateOther":null,"facetDateInclude":null,"mm":"0%","sort":"applId
+      Amendment|A.PE|1|JDNX2OTIRXEAPX1},{15896870|2018-02-14 16:59:20|PROSECUTION|Specification|SPEC|1|JDNX2OTJRXEAPX1}"],"appAttrDockNumberFacet":"NSC100/4-014US","appEntityStatusFacet":"UNDISCOUNTED","appCustNumberFacet":"22892","_version_":1784374363768750081,"firstInventorFileFacet":"Yes","appLocationFacet":"ELECTRONIC","appEarlyPubNumberFacet":"US20180230772A1","patentNumberFacet":"10544653"}]}},"queryId":"7919aec3-a1cd-4c80-b0ce-47021d30829b"},"jobStatus":null,"queryId":"7919aec3-a1cd-4c80-b0ce-47021d30829b","page":1,"count":0,"errorMessage":null,"createQueryRequest":{"searchText":"patentNumber:(10544653)","facet":"false","facetField":null,"facetLimit":null,"facetMissing":null,"facetDate":null,"facetDateGap":null,"facetDateStart":null,"facetDateEnd":null,"facetDateOther":null,"facetDateInclude":null,"mm":"0%","sort":"applId
       asc","qf":"appEarlyPubNumber applId appLocation appType appStatus_txt appConfrNumber
       appCustNumber appGrpArtNumber appCls appSubCls appEntityStatus_txt patentNumber
       patentTitle inventorName firstNamedApplicant appExamName appExamPrefrdName appAttrDockNumber
@@ -489,7 +489,7 @@ interactions:
       appCls appSubCls appEntityStatus_txt patentNumber patentTitle inventorName firstNamedApplicant
       appExamName appExamPrefrdName appAttrDockNumber appPCTNumber appIntlPubNumber
       wipoEarlyPubNumber pctAppType firstInventorFile appClsSubCls rankAndInventorsList","fl":["*"],"start":"0","sort":"applId
-      asc","fq":[],"rows":"1","facet":"false"}},"links":[{"rel":"self","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe?format=XML"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe/package?format=XML"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe/results?page=2"},{"rel":"self","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe?format=JSON"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe/package?format=JSON"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/9bfe9e6a-39a3-4fae-9e8b-0b9b307450fe/results?page=2"}]}'
+      asc","fq":[],"rows":"1","facet":"false"}},"links":[{"rel":"self","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b?format=XML"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b/package?format=XML"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b/results?page=2"},{"rel":"self","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b?format=JSON"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b/package?format=JSON"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/7919aec3-a1cd-4c80-b0ce-47021d30829b/results?page=2"}]}'
     headers:
       Cache-Control:
       - no-cache, no-store, max-age=0, must-revalidate
@@ -498,21 +498,21 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Thu, 30 Nov 2023 18:10:53 GMT
+      - Wed, 06 Dec 2023 19:17:23 GMT
       Expires:
       - '0'
       Pragma:
       - no-cache
       Server-Timing:
-      - intid;desc=e61f0b0e037b6381
+      - intid;desc=fdbe5c2c5cc9a097
       Strict-Transport-Security:
       - max-age=31536000;includeSubDomains
       Transfer-Encoding:
       - chunked
       Via:
-      - 1.1 ed57c867ac386aff2fbbc4e97f282304.cloudfront.net (CloudFront)
+      - 1.1 dce3932214fb38d941490d48f7ff75dc.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - 6_A2B8Smwz-Myk4H_eUWGKBXMsBM-NEqnkSZC_CVS8pBiA0yB2rU-A==
+      - _LF4XoKXs0Vbss6gFTtRD4rWs5GkFyowfFGGuTlJLtrMSBXt77C6GQ==
       X-Amz-Cf-Pop:
       - IAH50-C1
       X-Cache:

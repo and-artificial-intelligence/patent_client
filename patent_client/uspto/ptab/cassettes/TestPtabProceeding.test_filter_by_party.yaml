@@ -11,7 +11,7 @@ interactions:
       host:
       - developer.uspto.gov
       user-agent:
-      - Mozilla/5.0 Python Patent Clientbot/3.2.10 (parkerhancock@users.noreply.github.com)
+      - Mozilla/5.0 Python Patent Clientbot/4.1.3 (parkerhancock@users.noreply.github.com)
     method: GET
     uri: https://developer.uspto.gov/ptab-api/proceedings?partyName=Apple
   response:
@@ -87,7 +87,7 @@ interactions:
       et al","appellantCounselName":"HONEYWELL/WICK PHILLIPS","appellantApplicationNumberText":"12717273","appellantPublicationDate":"09-23-2010","appellantPublicationNumber":"20100236924A1","docketNoticeMailDate":"04-17-2013","additionalRespondentPartyDataBag":[]},{"proceedingFilingDate":"07-25-2013","proceedingStatusCategory":"Decision","proceedingNumber":"2013009432","proceedingLastModifiedDate":"08-01-2013","proceedingTypeCategory":"Appeal","subproceedingTypeCategory":"REGULAR","respondentTechnologyCenterNumber":"3600","respondentPartyName":"JAMES
       P. APPLEYARD et al","respondentGroupArtUnitNumber":"3689","respondentPatentNumber":"10157369","respondentApplicationNumberText":"12366326","decisionDate":"03-08-2016","appellantTechnologyCenterNumber":"3600","appellantPatentOwnerName":"JAMES
       P. APPLEYARD et al","appellantPartyName":"JAMES P. APPLEYARD et al","appellantGroupArtUnitNumber":"3689","appellantInventorName":"JAMES
-      P. APPLEYARD et al","appellantCounselName":"IBM CORPORATION","appellantGrantDate":"12-18-2018","appellantPatentNumber":"10157369","appellantApplicationNumberText":"12366326","appellantPublicationDate":"08-05-2010","appellantPublicationNumber":"20100198649A1","docketNoticeMailDate":"08-01-2013","additionalRespondentPartyDataBag":[]}],"recordTotalQuantity":1321}'
+      P. APPLEYARD et al","appellantCounselName":"IBM CORPORATION","appellantGrantDate":"12-18-2018","appellantPatentNumber":"10157369","appellantApplicationNumberText":"12366326","appellantPublicationDate":"08-05-2010","appellantPublicationNumber":"20100198649A1","docketNoticeMailDate":"08-01-2013","additionalRespondentPartyDataBag":[]}],"recordTotalQuantity":1331}'
     headers:
       access-control-allow-credentials:
       - 'true'
@@ -102,7 +102,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Fri, 03 Nov 2023 18:39:00 GMT
+      - Wed, 06 Dec 2023 19:18:07 GMT
       strict-transport-security:
       - max-age=31536000;
       vary:
@@ -123,7 +123,7 @@ interactions:
       host:
       - developer.uspto.gov
       user-agent:
-      - Mozilla/5.0 Python Patent Clientbot/3.2.10 (parkerhancock@users.noreply.github.com)
+      - Mozilla/5.0 Python Patent Clientbot/4.1.3 (parkerhancock@users.noreply.github.com)
     method: GET
     uri: https://developer.uspto.gov/ptab-api/proceedings?partyName=Apple
   response:
@@ -199,7 +199,7 @@ interactions:
       et al","appellantCounselName":"HONEYWELL/WICK PHILLIPS","appellantApplicationNumberText":"12717273","appellantPublicationDate":"09-23-2010","appellantPublicationNumber":"20100236924A1","docketNoticeMailDate":"04-17-2013","additionalRespondentPartyDataBag":[]},{"proceedingFilingDate":"07-25-2013","proceedingStatusCategory":"Decision","proceedingNumber":"2013009432","proceedingLastModifiedDate":"08-01-2013","proceedingTypeCategory":"Appeal","subproceedingTypeCategory":"REGULAR","respondentTechnologyCenterNumber":"3600","respondentPartyName":"JAMES
       P. APPLEYARD et al","respondentGroupArtUnitNumber":"3689","respondentPatentNumber":"10157369","respondentApplicationNumberText":"12366326","decisionDate":"03-08-2016","appellantTechnologyCenterNumber":"3600","appellantPatentOwnerName":"JAMES
       P. APPLEYARD et al","appellantPartyName":"JAMES P. APPLEYARD et al","appellantGroupArtUnitNumber":"3689","appellantInventorName":"JAMES
-      P. APPLEYARD et al","appellantCounselName":"IBM CORPORATION","appellantGrantDate":"12-18-2018","appellantPatentNumber":"10157369","appellantApplicationNumberText":"12366326","appellantPublicationDate":"08-05-2010","appellantPublicationNumber":"20100198649A1","docketNoticeMailDate":"08-01-2013","additionalRespondentPartyDataBag":[]}],"recordTotalQuantity":1321}'
+      P. APPLEYARD et al","appellantCounselName":"IBM CORPORATION","appellantGrantDate":"12-18-2018","appellantPatentNumber":"10157369","appellantApplicationNumberText":"12366326","appellantPublicationDate":"08-05-2010","appellantPublicationNumber":"20100198649A1","docketNoticeMailDate":"08-01-2013","additionalRespondentPartyDataBag":[]}],"recordTotalQuantity":1331}'
     headers:
       access-control-allow-credentials:
       - 'true'
@@ -214,7 +214,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Fri, 03 Nov 2023 18:39:00 GMT
+      - Wed, 06 Dec 2023 19:18:07 GMT
       strict-transport-security:
       - max-age=31536000;
       vary:

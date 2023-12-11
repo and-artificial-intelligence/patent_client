@@ -21,11 +21,11 @@ interactions:
       host:
       - ped.uspto.gov
       user-agent:
-      - Mozilla/5.0 Python Patent Clientbot/4.1.1 (parkerhancock@users.noreply.github.com)
+      - Mozilla/5.0 Python Patent Clientbot/4.1.3 (parkerhancock@users.noreply.github.com)
     method: POST
     uri: https://ped.uspto.gov/api/queries
   response:
-    content: '{"queryResults":{"indexLastUpdatedDate":"Thu Nov 30 12:52:38 EST 2023","searchResponse":{"responseHeader":{"zkConnected":true,"status":0,"QTime":588},"response":{"numFound":957,"start":0,"numFoundExact":true,"docs":[{"corrAddrCountryName":"UNITED
+    content: '{"queryResults":{"indexLastUpdatedDate":"Wed Dec 06 10:03:21 EST 2023","searchResponse":{"responseHeader":{"zkConnected":true,"status":0,"QTime":1355},"response":{"numFound":962,"start":0,"numFoundExact":true,"docs":[{"corrAddrCountryName":"UNITED
       STATES","applId":"11510020","assignments":[{"reelNumber":"18245","frameNumber":"671","addressNameText":"HOWARD
       R. POPPER","addressLineOneText":"MACPHERSON KWOK CHEN HEID LLP","addressLineTwoText":"1762
       TECHNOLOGY DRIVE, SUITE 226","addressLineThreeText":"SAN JOSE, CALIFORNIA 95110","addressLineFourText":"null","mailDate":"09-14-2006","receivedDate":"09-01-2006","recordedDate":"08-24-2006","pagesCount":"3","converyanceName":"ASSIGNMENT
@@ -39,7 +39,7 @@ interactions:
       101","city":"Los Angeles, ","geoCode":"CA","country":"(US)","rankNo":"4"}],"applicantsFacet":"{||A.C.
       Tesla Electronics||1111 Main St|Apt. 101|Los Angeles|CA|US|IND|4}","appFilingDate":"2006-08-24T00:00:00Z","appExamName":"LAM,
       HUNG Q","appExamNameFacet":"LAM, HUNG Q","publicInd":"Y","APP_IND":"5","inventorName":"Ho-min  Kang","inventorNameFacet":"Ho-min  Kang","appEarlyPubDate":"2007-03-01T00:00:00Z","corrAddrGeoRegionCode":"TX","corrAddrNameLineTwo":"IP
-      Section","appLocation":"ELECTRONIC","appEarlyPubNumber":"US20070044606A1","id":"11510020","appGrpArtNumber":"2883","appGrpArtNumberFacet":"2883","applIdStr":"11510020","appl_id_txt":"11510020","appSubCls":"187000","LAST_MOD_TS":"2023-11-28T13:41:07Z","transactions":[{"recordDate":"2009-11-12
+      Section","appLocation":"ELECTRONIC","appEarlyPubNumber":"US20070044606A1","id":"11510020","appGrpArtNumber":"2883","appGrpArtNumberFacet":"2883","applIdStr":"11510020","appl_id_txt":"11510020","appSubCls":"187000","LAST_MOD_TS":"2023-12-05T05:43:33Z","transactions":[{"recordDate":"2009-11-12
       00:00:00","code":"MABN2","description":"Mail Abandonment for Failure to Respond
       to Office Action"},{"recordDate":"2009-11-09 00:00:00","code":"ABN2","description":"Aband.
       for Failure to Respond to O. A."},{"recordDate":"2009-04-16 00:00:00","code":"MCTFR","description":"Mail
@@ -64,7 +64,7 @@ interactions:
       Is Now Complete"},{"recordDate":"2006-09-06 00:00:00","code":"L194","description":"Cleared
       by OIPE CSR"},{"recordDate":"2006-09-01 00:00:00","code":"SCAN","description":"IFW
       Scan & PACR Auto Security Review"},{"recordDate":"2006-08-24 00:00:00","code":"IEXX","description":"Initial
-      Exam Team nn"}],"LAST_INSERT_TIME":"2023-11-28T18:30:03Z","appCls":"349","appStatus":"Abandoned  --  Failure
+      Exam Team nn"}],"LAST_INSERT_TIME":"2023-12-05T13:40:02Z","appCls":"349","appStatus":"Abandoned  --  Failure
       to Respond to an Office Action","appStatusFacet":"Abandoned  --  Failure to
       Respond to an Office Action","appStatus_txt":"Abandoned  --  Failure to Respond
       to an Office Action","corrAddrStreetLineTwo":"SUITE 2300","corrAddrGeoRegionNA":"TEXAS","foreignPriority":[{"applicationNumberText":"11510020","priorityClaim":"10-2005-0078345","countryName":"REPUBLIC
@@ -129,8 +129,8 @@ interactions:
       Gregory  ","phoneNum":"949-202-3000","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"50426","fullName":"Herda,
       Alan  ","phoneNum":"214-651-5000","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"67568","fullName":"Howard,
       Kyle  ","phoneNum":"972-739-6931","regStatus":"ACTIVE"},{"applicationId":null,"registrationNo":"69821","fullName":"White,
-      Kevin  ","phoneNum":"949-202-3063","regStatus":"ACTIVE"}],"corrAddrCustNo":"32605","corrAddrCountryCd":"US","corrAddrCity":"Dallas","appEntityStatus":"UNDISCOUNTED","appConfrNumber":"6793","lastUpdatedTimestamp":"2023-11-29T12:31:55.770Z","appAttrDockNumberFacet":"AB-1837
-      US","appEntityStatusFacet":"UNDISCOUNTED","appCustNumberFacet":"32605","_version_":1783903957415886848,"firstInventorFileFacet":"No","appLocationFacet":"ELECTRONIC","appEarlyPubNumberFacet":"US20070044606A1"}]}},"queryId":"63cd7e31-09c7-43b1-b572-599421b9c98b"},"jobStatus":null,"queryId":"63cd7e31-09c7-43b1-b572-599421b9c98b","page":1,"count":0,"errorMessage":null,"createQueryRequest":{"searchText":"firstNamedApplicant:(Tesla)","facet":"false","facetField":null,"facetLimit":null,"facetMissing":null,"facetDate":null,"facetDateGap":null,"facetDateStart":null,"facetDateEnd":null,"facetDateOther":null,"facetDateInclude":null,"mm":"0%","sort":"applId
+      Kevin  ","phoneNum":"949-202-3063","regStatus":"ACTIVE"}],"corrAddrCustNo":"32605","corrAddrCountryCd":"US","corrAddrCity":"Dallas","appEntityStatus":"UNDISCOUNTED","appConfrNumber":"6793","lastUpdatedTimestamp":"2023-12-06T09:20:42.533Z","appAttrDockNumberFacet":"AB-1837
+      US","appEntityStatusFacet":"UNDISCOUNTED","appCustNumberFacet":"32605","_version_":1784524058803568640,"firstInventorFileFacet":"No","appLocationFacet":"ELECTRONIC","appEarlyPubNumberFacet":"US20070044606A1"}]}},"queryId":"c41945a7-b38a-454f-a1df-87bd9c5e3e37"},"jobStatus":null,"queryId":"c41945a7-b38a-454f-a1df-87bd9c5e3e37","page":1,"count":0,"errorMessage":null,"createQueryRequest":{"searchText":"firstNamedApplicant:(Tesla)","facet":"false","facetField":null,"facetLimit":null,"facetMissing":null,"facetDate":null,"facetDateGap":null,"facetDateStart":null,"facetDateEnd":null,"facetDateOther":null,"facetDateInclude":null,"mm":"0%","sort":"applId
       asc","qf":"appEarlyPubNumber applId appLocation appType appStatus_txt appConfrNumber
       appCustNumber appGrpArtNumber appCls appSubCls appEntityStatus_txt patentNumber
       patentTitle inventorName firstNamedApplicant appExamName appExamPrefrdName appAttrDockNumber
@@ -140,7 +140,7 @@ interactions:
       appCls appSubCls appEntityStatus_txt patentNumber patentTitle inventorName firstNamedApplicant
       appExamName appExamPrefrdName appAttrDockNumber appPCTNumber appIntlPubNumber
       wipoEarlyPubNumber pctAppType firstInventorFile appClsSubCls rankAndInventorsList","fl":["*"],"start":"0","sort":"applId
-      asc","fq":[],"rows":"1","facet":"false"}},"links":[{"rel":"self","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b?format=XML"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b/package?format=XML"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b/results?page=2"},{"rel":"self","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b?format=JSON"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b/package?format=JSON"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/63cd7e31-09c7-43b1-b572-599421b9c98b/results?page=2"}]}'
+      asc","fq":[],"rows":"1","facet":"false"}},"links":[{"rel":"self","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37?format=XML"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37/package?format=XML"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37/results?page=2"},{"rel":"self","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37?format=JSON"},{"rel":"results","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37/results?page=1"},{"rel":"package","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37/package?format=JSON"},{"rel":"first","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37/results?page=1"},{"rel":"next","href":"https://ped.uspto.gov/api/queries/c41945a7-b38a-454f-a1df-87bd9c5e3e37/results?page=2"}]}'
     headers:
       Cache-Control:
       - no-cache, no-store, max-age=0, must-revalidate
@@ -149,21 +149,21 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Thu, 30 Nov 2023 18:10:50 GMT
+      - Wed, 06 Dec 2023 19:17:21 GMT
       Expires:
       - '0'
       Pragma:
       - no-cache
       Server-Timing:
-      - intid;desc=e3aca6f2b871c8f9
+      - intid;desc=93d237300761c3f1
       Strict-Transport-Security:
       - max-age=31536000;includeSubDomains
       Transfer-Encoding:
       - chunked
       Via:
-      - 1.1 ed57c867ac386aff2fbbc4e97f282304.cloudfront.net (CloudFront)
+      - 1.1 dce3932214fb38d941490d48f7ff75dc.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - T303_uW--DhyY3_ZxVFIqwTpQIQr8AIG1Soap2sFj38euImi_e6Pug==
+      - GDM0VHsagG3KqtWvtyA0HmNv0o25lYropMfbkB7t_jETYsWU83rvKw==
       X-Amz-Cf-Pop:
       - IAH50-C1
       X-Cache:
