@@ -64,11 +64,11 @@ class USApplicationManager(Manager["USApplication"]):
                 break
 
     def get_query_params(self):
+        query = list()
         # Short circuit processing logic if the "query" filter is specified
         if "query" in self.config.filter:
             query_text = self.config.filter["query"]
         else:
-            query = list()
             date_filters = {
                 QueryFields.get(k): v for k, v in self.config.filter.items() if QueryFields.is_date_field(k)
             }
