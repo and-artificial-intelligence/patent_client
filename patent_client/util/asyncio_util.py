@@ -2,14 +2,15 @@ import asyncio
 
 
 def run_sync(coroutine):
-    import nest_asyncio
+    return asyncio.run(coroutine)
+    # import nest_asyncio
 
-    nest_asyncio.apply()
-    try:
-        loop = asyncio.get_running_loop()
-    except RuntimeError:
-        loop = asyncio.new_event_loop()
-    return loop.run_until_complete(coroutine)
+    # nest_asyncio.apply()
+    # try:
+    #     loop = asyncio.get_running_loop()
+    # except RuntimeError:
+    #     loop = asyncio.new_event_loop()
+    # return loop.run_until_complete(coroutine)
 
 
 def run_async_iterator(async_iterator):
