@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "patent_client"
-version = "4.1.8"
+version = "4.1.10"
 description = "A set of ORM-style clients for publicly available intellectual property data"
 authors = ["Parker Hancock <633163+parkerhancock@users.noreply.github.com>"]
 license = "Apache Software License 2.0"
@@ -114,7 +114,7 @@ python_files = [
     "*_test.py",
     "tests.py",
 ]
-addopts = '-ra --strict --doctest-modules --doctest-glob="*.md" --tb=short'
+addopts = '-ra --strict-markers --doctest-modules --doctest-glob="*.md" --tb=short'
 doctest_optionflags= [
     "NORMALIZE_WHITESPACE",
     "IGNORE_EXCEPTION_DETAIL",
